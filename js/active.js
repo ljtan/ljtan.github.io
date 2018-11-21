@@ -120,28 +120,28 @@
         $('#circle').circleProgress({
             size: 180,
             emptyFill: "rgba(0, 0, 0, .0)",
-            fill: '#ffb016',
+            fill: '#14c4ff',
             thickness: '16',
             reverse: true
         });
         $('#circle2').circleProgress({
             size: 180,
             emptyFill: "rgba(0, 0, 0, .0)",
-            fill: '#ffb016',
+            fill: '#14c4ff',
             thickness: '16',
             reverse: true
         });
         $('#circle3').circleProgress({
             size: 180,
             emptyFill: "rgba(0, 0, 0, .0)",
-            fill: '#ffb016',
+            fill: '#14c4ff',
             thickness: '16',
             reverse: true
         });
         $('#circle4').circleProgress({
             size: 180,
             emptyFill: "rgba(0, 0, 0, .0)",
-            fill: '#ffb016',
+            fill: '#14c4ff',
             thickness: '16',
             reverse: true
         });
