@@ -507,7 +507,7 @@ textarea:focus {
     font-size: 48px;
     margin-bottom: 15px; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
-      .about-me-text h2 {
+      .about-me-text h2 { 
         font-size: 36px; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .about-me-text h2 {
