@@ -358,10 +358,10 @@ textarea:focus {
         text-transform: capitalize;
         padding: 10px 15px;
         background-color: transparent;
-        line-height: 1;
+        line-height: 0;
         color: #252525;
         font-weight: 500;
-        font-size: 13px; }
+        font-size: 22px; }
         .header-area .vcard-main-menu .classy-navbar .classynav > ul > li > a:hover, .header-area .vcard-main-menu .classy-navbar .classynav > ul > li > a:focus {
           color: #14c4ff; }
       .header-area .vcard-main-menu .classy-navbar .classynav > ul > li.active > a {
