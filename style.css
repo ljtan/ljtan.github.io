@@ -408,23 +408,23 @@ textarea:focus {
       .header-area.sticky .vcard-main-menu .classy-navbar {
         height: 80px; }
 
-/* :: 5.0 Hero Area */
-.hero-area {
+/* :: 5.0 About-Me Area */
+.About-Me-area {
   position: relative;
   z-index: 1;
   height: 800px; }
   @media only screen and (max-width: 767px) {
-    .hero-area {
+    .About-Me-area {
       height: 600px; } }
-  .hero-area .hero-content {
+  .About-Me-area .About-Me-content {
     position: relative;
     z-index: 1; }
-    .hero-area .hero-content h5 {
+    .About-Me-area .About-Me-content h5 {
       font-size: 22px;
       font-style: italic;
       margin-bottom: 10px;
       font-weight: 600; }
-    .hero-area .hero-content h2 {
+    .About-Me-area .About-Me-content h2 {
       font-size: 92px;
       color: #14c4ff;
       margin-bottom: -10px;
@@ -432,71 +432,71 @@ textarea:focus {
       line-height: 1.1;
       margin-left: -5px; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
-        .hero-area .hero-content h2 {
+        .About-Me-area .About-Me-content h2 {
           font-size: 72px; } }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .hero-area .hero-content h2 {
+        .About-Me-area .About-Me-content h2 {
           font-size: 68px; } }
       @media only screen and (max-width: 767px) {
-        .hero-area .hero-content h2 {
+        .About-Me-area .About-Me-content h2 {
           font-size: 36px;
           margin-left: -2px;
           margin-bottom: 2px; } }
-    .hero-area .hero-content h3 {
+    .About-Me-area .About-Me-content h3 {
       margin-bottom: 0;
       font-size: 30px;
       font-weight: 600; }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .hero-area .hero-content h3 {
+        .About-Me-area .About-Me-content h3 {
           font-size: 24px; } }
       @media only screen and (max-width: 767px) {
-        .hero-area .hero-content h3 {
+        .About-Me-area .About-Me-content h3 {
           font-size: 16px; } }
-    .hero-area .hero-content .contact-info a {
+    .About-Me-area .About-Me-content .contact-info a {
       display: block;
       margin-bottom: 15px; }
       @media only screen and (max-width: 767px) {
-        .hero-area .hero-content .contact-info a {
+        .About-Me-area .About-Me-content .contact-info a {
           font-size: 12px; } }
-      .hero-area .hero-content .contact-info a img {
+      .About-Me-area .About-Me-content .contact-info a img {
         margin-right: 15px;
         display: inline-block; }
         @media only screen and (max-width: 767px) {
-          .hero-area .hero-content .contact-info a img {
+          .About-Me-area .About-Me-content .contact-info a img {
             margin-right: 5px; } }
-      .hero-area .hero-content .contact-info a:last-child {
+      .About-Me-area .About-Me-content .contact-info a:last-child {
         margin-bottom: 0; }
-      .hero-area .hero-content .contact-info a:hover, .hero-area .hero-content .contact-info a:focus {
+      .About-Me-area .About-Me-content .contact-info a:hover, .About-Me-area .About-Me-content .contact-info a:focus {
         color: #14c4ff; }
-    .hero-area .hero-content .social-info a {
+    .About-Me-area .About-Me-content .social-info a {
       display: inline-block;
       padding-right: 20px;
       font-size: 14px; }
-      .hero-area .hero-content .social-info a:hover, .hero-area .hero-content .social-info a:focus {
+      .About-Me-area .About-Me-content .social-info a:hover, .About-Me-area .About-Me-content .social-info a:focus {
         color: #14c4ff; }
-  .hero-area.horizontal {
+  .About-Me-area.horizontal {
     position: relative;
     z-index: 10;
     height: auto !important;
     margin: 8% 0; }
-    .hero-area.horizontal .hero-content {
+    .About-Me-area.horizontal .About-Me-content {
       display: inline-block;
       background-color: #141414;
       padding: 50px 70px; }
-      .hero-area.horizontal .hero-content h5 {
+      .About-Me-area.horizontal .About-Me-content h5 {
         color: #fff; }
-      .hero-area.horizontal .hero-content h3 {
+      .About-Me-area.horizontal .About-Me-content h3 {
         color: #fff; }
       @media only screen and (max-width: 767px) {
-        .hero-area.horizontal .hero-content {
+        .About-Me-area.horizontal .About-Me-content {
           padding: 15px; } }
-    .hero-area.horizontal .contact-info a {
+    .About-Me-area.horizontal .contact-info a {
       color: #828282; }
-      .hero-area.horizontal .contact-info a:hover, .hero-area.horizontal .contact-info a:focus {
+      .About-Me-area.horizontal .contact-info a:hover, .About-Me-area.horizontal .contact-info a:focus {
         color: #14c4ff; }
-    .hero-area.horizontal .social-info a {
+    .About-Me-area.horizontal .social-info a {
       color: #14c4ff; }
-      .hero-area.horizontal .social-info a:hover, .hero-area.horizontal .social-info a:focus {
+      .About-Me-area.horizontal .social-info a:hover, .About-Me-area.horizontal .social-info a:focus {
         color: #fff; }
 
 /* :: 6.0 About Me Area */
