@@ -187,15 +187,15 @@ img {
     height: 8px;
     background-color: #fff;
     border-radius: 5px;
-    -webkit-animation: Jason-load 2.5s ease-in-out infinite;
-    animation: Jason-load 2.5s ease-in-out infinite;
+    -webkit-animation: vcard-load 2.5s ease-in-out infinite;
+    animation: vcard-load 2.5s ease-in-out infinite;
     z-index: 10; }
     #preloader .loader:before, #preloader .loader:after {
       position: absolute;
       display: block;
       content: "";
-      -webkit-animation: Jason-load 2s ease-in-out infinite;
-      animation: Jason-load 2s ease-in-out infinite;
+      -webkit-animation: vcard-load 2s ease-in-out infinite;
+      animation: vcard-load 2s ease-in-out infinite;
       height: 8px;
       border-radius: 5px; }
     #preloader .loader:before {
@@ -207,7 +207,7 @@ img {
       bottom: -20px;
       width: 35px;
       background-color: #fff; }
-@keyframes Jason-load {
+@keyframes vcard-load {
   0% {
     -webkit-transform: translateX(40px);
     transform: translateX(40px); }
@@ -299,7 +299,7 @@ textarea:focus {
       right: 30px; } }
 
 /* Button */
-.Jason-btn {
+.vcard-btn {
   display: inline-block;
   min-width: 185px;
   height: 54px;
@@ -314,14 +314,14 @@ textarea:focus {
   transition-duration: 500ms;
   text-transform: capitalize;
   background-color: #14c4ff; }
-  .Jason-btn.active, .Jason-btn:hover, .Jason-btn:focus {
+  .vcard-btn.active, .vcard-btn:hover, .vcard-btn:focus {
     font-size: 14px;
     font-weight: 600;
     color: #ffffff;
     background-color: #252525; }
-  .Jason-btn.contact-btn {
+  .vcard-btn.contact-btn {
     color: #fff; }
-    .Jason-btn.contact-btn:hover, .Jason-btn.contact-btn:focus {
+    .vcard-btn.contact-btn:hover, .vcard-btn.contact-btn:focus {
       color: #fff; }
 
 /* :: 4.0 Header Area */
@@ -335,26 +335,26 @@ textarea:focus {
   z-index: 100;
   -webkit-transition-duration: 700ms;
   transition-duration: 700ms; }
-  .header-area .Jason-main-menu {
+  .header-area .vcard-main-menu {
     position: relative;
     width: 100%;
     z-index: 100;
     height: 160px;
     -webkit-transition-duration: 700ms;
     transition-duration: 700ms; }
-    .header-area .Jason-main-menu .classy-nav-container {
+    .header-area .vcard-main-menu .classy-nav-container {
       background-color: transparent; }
-    .header-area .Jason-main-menu .classy-navbar {
+    .header-area .vcard-main-menu .classy-navbar {
       height: 160px;
       padding: 0;
       -webkit-transition-duration: 700ms;
       transition-duration: 700ms; }
-      .header-area .Jason-main-menu .classy-navbar .classynav ul li a {
+      .header-area .vcard-main-menu .classy-navbar .classynav ul li a {
         font-weight: 500; }
-        .header-area .Jason-main-menu .classy-navbar .classynav ul li a:hover, .header-area .Jason-main-menu .classy-navbar .classynav ul li a:focus {
+        .header-area .vcard-main-menu .classy-navbar .classynav ul li a:hover, .header-area .vcard-main-menu .classy-navbar .classynav ul li a:focus {
           font-weight: 500;
           color: #14c4ff; }
-      .header-area .Jason-main-menu .classy-navbar .classynav > ul > li > a {
+      .header-area .vcard-main-menu .classy-navbar .classynav > ul > li > a {
         text-transform: capitalize;
         padding: 10px 15px;
         background-color: transparent;
@@ -362,13 +362,13 @@ textarea:focus {
         color: #252525;
         font-weight: 500;
         font-size: 22px; }
-        .header-area .Jason-main-menu .classy-navbar .classynav > ul > li > a:hover, .header-area .Jason-main-menu .classy-navbar .classynav > ul > li > a:focus {
+        .header-area .vcard-main-menu .classy-navbar .classynav > ul > li > a:hover, .header-area .vcard-main-menu .classy-navbar .classynav > ul > li > a:focus {
           color: #14c4ff; }
-      .header-area .Jason-main-menu .classy-navbar .classynav > ul > li.active > a {
+      .header-area .vcard-main-menu .classy-navbar .classynav > ul > li.active > a {
         position: relative;
         z-index: 1;
         color: #252525; }
-        .header-area .Jason-main-menu .classy-navbar .classynav > ul > li.active > a::before {
+        .header-area .vcard-main-menu .classy-navbar .classynav > ul > li.active > a::before {
           -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
           background-color: #14c4ff;
@@ -402,10 +402,10 @@ textarea:focus {
     right: 0;
     z-index: 100;
     box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.15); }
-    .header-area.sticky .Jason-main-menu {
+    .header-area.sticky .vcard-main-menu {
       height: 80px;
       background-color: #fff; }
-      .header-area.sticky .Jason-main-menu .classy-navbar {
+      .header-area.sticky .vcard-main-menu .classy-navbar {
         height: 80px; }
 
 /* :: 5.0 About-Me Area */
@@ -585,11 +585,11 @@ textarea:focus {
       margin-left: 0;
       margin-right: 0; } }
 
-.Jason-projects-menu {
+.vcard-projects-menu {
   position: relative;
   z-index: 1;
   margin-bottom: 90px; }
-  .Jason-projects-menu .project-menu button {
+  .vcard-projects-menu .project-menu button {
     font-size: 16px;
     padding: 0 20px;
     color: #252525;
@@ -598,12 +598,12 @@ textarea:focus {
     position: relative;
     z-index: 1; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .Jason-projects-menu .project-menu button {
+      .vcard-projects-menu .project-menu button {
         padding: 0 15px;
         font-size: 14px; } }
-    .Jason-projects-menu .project-menu button:hover, .Jason-projects-menu .project-menu button:focus {
+    .vcard-projects-menu .project-menu button:hover, .vcard-projects-menu .project-menu button:focus {
       box-shadow: none; }
-    .Jason-projects-menu .project-menu button.active::after {
+    .vcard-projects-menu .project-menu button.active::after {
       width: 100%;
       height: 9px;
       background-color: #14c4ff;
@@ -634,7 +634,7 @@ textarea:focus {
       font-size: 12px;
       color: #828282;
       text-transform: capitalize; }
-    .single-project-area .project-content .Jason-img-zoom {
+    .single-project-area .project-content .vcard-img-zoom {
       position: absolute;
       width: 60px;
       height: 100%;
@@ -644,18 +644,18 @@ textarea:focus {
       z-index: 40;
       -webkit-transition-duration: 500ms;
       transition-duration: 500ms; }
-      .single-project-area .project-content .Jason-img-zoom a {
+      .single-project-area .project-content .vcard-img-zoom a {
         text-align: center;
         font-size: 24px;
         color: #14c4ff;
         display: block;
         -webkit-transition-duration: 500ms;
         transition-duration: 500ms; }
-        .single-project-area .project-content .Jason-img-zoom a:hover {
+        .single-project-area .project-content .vcard-img-zoom a:hover {
           color: #252525; }
   .single-project-area:hover .project-content h5 {
     color: #14c4ff; }
-  .single-project-area:hover .project-content .Jason-img-zoom {
+  .single-project-area:hover .project-content .vcard-img-zoom {
     right: 0; }
 
 /* :: 10.0 Cool Facts Area */
@@ -966,7 +966,7 @@ textarea:focus {
         color: #14c4ff; }
 
 /* :: 16.0 Horizontal Version CSS */
-.Jason-main-wrapper {
+.vcard-main-wrapper {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -975,9 +975,9 @@ textarea:focus {
   z-index: 10;
   padding: 30px; }
   @media only screen and (max-width: 767px) {
-    .Jason-main-wrapper {
+    .vcard-main-wrapper {
       padding: 15px; } }
-  .Jason-main-wrapper .Jason-content-wrapper {
+  .vcard-main-wrapper .vcard-content-wrapper {
     position: fixed;
     width: calc(100% - 60px);
     height: calc(100% - 60px);
@@ -986,12 +986,12 @@ textarea:focus {
     z-index: 20;
     background-color: #f3f5f8; }
     @media only screen and (max-width: 767px) {
-      .Jason-main-wrapper .Jason-content-wrapper {
+      .vcard-main-wrapper .vcard-content-wrapper {
         width: calc(100% - 30px);
         height: calc(100% - 30px);
         top: 15px;
         left: 15px; } }
-    .Jason-main-wrapper .Jason-content-wrapper .header_area {
+    .vcard-main-wrapper .vcard-content-wrapper .header_area {
       position: fixed;
       z-index: 100;
       width: 200px;
@@ -1000,45 +1000,45 @@ textarea:focus {
       top: 60px;
       left: 60px; }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .Jason-main-wrapper .Jason-content-wrapper .header_area {
+        .vcard-main-wrapper .vcard-content-wrapper .header_area {
           height: 54px;
           top: 60px;
           left: 60px;
           width: 150px; } }
       @media only screen and (max-width: 767px) {
-        .Jason-main-wrapper .Jason-content-wrapper .header_area {
+        .vcard-main-wrapper .vcard-content-wrapper .header_area {
           height: 54px;
           top: 30px;
           left: 30px;
           width: 120px; } }
-      .Jason-main-wrapper .Jason-content-wrapper .header_area .logo {
+      .vcard-main-wrapper .vcard-content-wrapper .header_area .logo {
         width: 100%;
         position: absolute;
         text-align: center;
         top: 40px;
         z-index: 100;
         padding: 10px; }
-        .Jason-main-wrapper .Jason-content-wrapper .header_area .logo a {
+        .vcard-main-wrapper .vcard-content-wrapper .header_area .logo a {
           display: block; }
           @media only screen and (min-width: 768px) and (max-width: 991px) {
-            .Jason-main-wrapper .Jason-content-wrapper .header_area .logo a img {
+            .vcard-main-wrapper .vcard-content-wrapper .header_area .logo a img {
               max-width: 55px; } }
           @media only screen and (max-width: 767px) {
-            .Jason-main-wrapper .Jason-content-wrapper .header_area .logo a img {
+            .vcard-main-wrapper .vcard-content-wrapper .header_area .logo a img {
               max-width: 55px; } }
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
-          .Jason-main-wrapper .Jason-content-wrapper .header_area .logo {
+          .vcard-main-wrapper .vcard-content-wrapper .header_area .logo {
             top: 5px; } }
         @media only screen and (min-width: 768px) and (max-width: 991px) {
-          .Jason-main-wrapper .Jason-content-wrapper .header_area .logo {
+          .vcard-main-wrapper .vcard-content-wrapper .header_area .logo {
             top: 0; } }
         @media only screen and (max-width: 767px) {
-          .Jason-main-wrapper .Jason-content-wrapper .header_area .logo {
+          .vcard-main-wrapper .vcard-content-wrapper .header_area .logo {
             top: 0; } }
-        .Jason-main-wrapper .Jason-content-wrapper .header_area .logo .nav-toggle {
+        .vcard-main-wrapper .vcard-content-wrapper .header_area .logo .nav-toggle {
           display: none; }
           @media only screen and (min-width: 768px) and (max-width: 991px) {
-            .Jason-main-wrapper .Jason-content-wrapper .header_area .logo .nav-toggle {
+            .vcard-main-wrapper .vcard-content-wrapper .header_area .logo .nav-toggle {
               -webkit-transition-duration: 500ms;
               transition-duration: 500ms;
               display: block;
@@ -1047,10 +1047,10 @@ textarea:focus {
               line-height: 34px;
               padding-left: 30px;
               cursor: pointer; }
-              .Jason-main-wrapper .Jason-content-wrapper .header_area .logo .nav-toggle:hover, .Jason-main-wrapper .Jason-content-wrapper .header_area .logo .nav-toggle:focus {
+              .vcard-main-wrapper .vcard-content-wrapper .header_area .logo .nav-toggle:hover, .vcard-main-wrapper .vcard-content-wrapper .header_area .logo .nav-toggle:focus {
                 color: #252525; } }
           @media only screen and (max-width: 767px) {
-            .Jason-main-wrapper .Jason-content-wrapper .header_area .logo .nav-toggle {
+            .vcard-main-wrapper .vcard-content-wrapper .header_area .logo .nav-toggle {
               -webkit-transition-duration: 500ms;
               transition-duration: 500ms;
               display: block;
@@ -1059,9 +1059,9 @@ textarea:focus {
               line-height: 34px;
               padding-left: 15px;
               cursor: pointer; }
-              .Jason-main-wrapper .Jason-content-wrapper .header_area .logo .nav-toggle:hover, .Jason-main-wrapper .Jason-content-wrapper .header_area .logo .nav-toggle:focus {
+              .vcard-main-wrapper .vcard-content-wrapper .header_area .logo .nav-toggle:hover, .vcard-main-wrapper .vcard-content-wrapper .header_area .logo .nav-toggle:focus {
                 color: #252525; } }
-      .Jason-main-wrapper .Jason-content-wrapper .header_area .Jason-nav {
+      .vcard-main-wrapper .vcard-content-wrapper .header_area .vcard-nav {
         position: absolute;
         width: calc(100% - 45px);
         text-align: left;
@@ -1072,7 +1072,7 @@ textarea:focus {
         -webkit-transform: translateY(-50%);
         transform: translateY(-50%); }
         @media only screen and (min-width: 768px) and (max-width: 991px) {
-          .Jason-main-wrapper .Jason-content-wrapper .header_area .Jason-nav {
+          .vcard-main-wrapper .vcard-content-wrapper .header_area .vcard-nav {
             -webkit-transition-duration: 500ms;
             transition-duration: 500ms;
             position: fixed;
@@ -1087,10 +1087,10 @@ textarea:focus {
             background-color: #14c4ff;
             padding: 30px;
             z-index: 3000; }
-            .Jason-main-wrapper .Jason-content-wrapper .header_area .Jason-nav.on {
+            .vcard-main-wrapper .vcard-content-wrapper .header_area .vcard-nav.on {
               left: 0; } }
         @media only screen and (max-width: 767px) {
-          .Jason-main-wrapper .Jason-content-wrapper .header_area .Jason-nav {
+          .vcard-main-wrapper .vcard-content-wrapper .header_area .vcard-nav {
             -webkit-transition-duration: 500ms;
             transition-duration: 500ms;
             position: fixed;
@@ -1104,24 +1104,24 @@ textarea:focus {
             transform: translateY(0%);
             background-color: #14c4ff;
             padding: 30px; }
-            .Jason-main-wrapper .Jason-content-wrapper .header_area .Jason-nav.on {
+            .vcard-main-wrapper .vcard-content-wrapper .header_area .vcard-nav.on {
               left: 0; } }
-        .Jason-main-wrapper .Jason-content-wrapper .header_area .Jason-nav li a {
+        .vcard-main-wrapper .vcard-content-wrapper .header_area .vcard-nav li a {
           display: inline-block;
           font-weight: 500;
           font-size: 16px;
           padding: 10px 20px;
           line-height: 1; }
           @media only screen and (min-width: 992px) and (max-width: 1199px) {
-            .Jason-main-wrapper .Jason-content-wrapper .header_area .Jason-nav li a {
+            .vcard-main-wrapper .vcard-content-wrapper .header_area .vcard-nav li a {
               padding: 7px 20px; } }
-          .Jason-main-wrapper .Jason-content-wrapper .header_area .Jason-nav li a:hover, .Jason-main-wrapper .Jason-content-wrapper .header_area .Jason-nav li a:focus {
+          .vcard-main-wrapper .vcard-content-wrapper .header_area .vcard-nav li a:hover, .vcard-main-wrapper .vcard-content-wrapper .header_area .vcard-nav li a:focus {
             color: #fff; }
-        .Jason-main-wrapper .Jason-content-wrapper .header_area .Jason-nav li.active a {
+        .vcard-main-wrapper .vcard-content-wrapper .header_area .vcard-nav li.active a {
           position: relative;
           z-index: 1;
           color: #252525; }
-          .Jason-main-wrapper .Jason-content-wrapper .header_area .Jason-nav li.active a::before {
+          .vcard-main-wrapper .vcard-content-wrapper .header_area .vcard-nav li.active a::before {
             -webkit-transition-duration: 250ms;
             transition-duration: 250ms;
             background-color: #fff;
@@ -1133,7 +1133,7 @@ textarea:focus {
             content: '';
             z-index: -10; }
             @media only screen and (min-width: 992px) and (max-width: 1199px) {
-              .Jason-main-wrapper .Jason-content-wrapper .header_area .Jason-nav li.active a::before {
+              .vcard-main-wrapper .vcard-content-wrapper .header_area .vcard-nav li.active a::before {
                 bottom: 4px; } }
 
 .horizontal-contact-btn {
@@ -1171,27 +1171,27 @@ textarea:focus {
     .horizontal-contact-btn {
       top: 30px;
       right: 30px; }
-      .horizontal-contact-btn .Jason-btn {
+      .horizontal-contact-btn .vcard-btn {
         min-width: 50px; } }
   @media only screen and (max-width: 767px) {
     .horizontal-contact-btn {
       top: 15px;
       right: 15px; }
-      .horizontal-contact-btn .Jason-btn {
+      .horizontal-contact-btn .vcard-btn {
         min-width: 50px; } }
 
-.Jason-page-content-wrapper {
+.vcard-page-content-wrapper {
   position: relative;
   z-index: 1;
   height: 100%;
   padding-left: 260px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .Jason-page-content-wrapper {
+    .vcard-page-content-wrapper {
       padding-left: 30px; } }
   @media only screen and (max-width: 767px) {
-    .Jason-page-content-wrapper {
+    .vcard-page-content-wrapper {
       padding-left: 15px; } }
-  .Jason-page-content-wrapper .page-content {
+  .vcard-page-content-wrapper .page-content {
     margin-bottom: 30px;
     height: calc(100% - 134px);
     width: calc(100% - 30px);
@@ -1199,32 +1199,32 @@ textarea:focus {
     overflow-x: hidden;
     background-color: transparent; }
     @media only screen and (max-width: 767px) {
-      .Jason-page-content-wrapper .page-content {
+      .vcard-page-content-wrapper .page-content {
         height: calc(100% - 100px);
         width: calc(100% - 15px);
         margin-bottom: 15px; } }
-  .Jason-page-content-wrapper .courses-area {
+  .vcard-page-content-wrapper .courses-area {
     background-color: transparent; }
-  .Jason-page-content-wrapper .Jason-project .single-project-area {
+  .vcard-page-content-wrapper .vcard-project .single-project-area {
     position: relative; }
-  .Jason-page-content-wrapper .contact-form-area .form-control {
+  .vcard-page-content-wrapper .contact-form-area .form-control {
     background-color: #fff; }
-  .Jason-page-content-wrapper #googleMap {
+  .vcard-page-content-wrapper #googleMap {
     height: 480px; }
-  .Jason-page-content-wrapper .contact-area {
+  .vcard-page-content-wrapper .contact-area {
     padding-left: 12px; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .Jason-page-content-wrapper .contact-area {
+      .vcard-page-content-wrapper .contact-area {
         margin-top: 50px; } }
     @media only screen and (max-width: 767px) {
-      .Jason-page-content-wrapper .contact-area {
+      .vcard-page-content-wrapper .contact-area {
         padding-left: 0;
         margin-top: 50px; } }
-  .Jason-page-content-wrapper .contact-information {
+  .vcard-page-content-wrapper .contact-information {
     margin-left: 27px;
     margin-right: 15px; }
     @media only screen and (max-width: 767px) {
-      .Jason-page-content-wrapper .contact-information {
+      .vcard-page-content-wrapper .contact-information {
         padding-left: 0;
         padding-right: 0;
         margin-left: 0;
