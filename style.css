@@ -536,7 +536,7 @@ textarea:focus {
     .single-skils-area .circle span {
       font-size: 48px;
       position: absolute;
-      top: 50%;
+      top: 100%;
       left: 0;
       width: 100%;
       text-align: center;
@@ -545,7 +545,7 @@ textarea:focus {
       -webkit-transform: translateY(-50%);
       transform: translateY(-50%); }
   .single-skils-area .skills-text {
-    margin-top: 20px; }
+    margin-top: 0px; }
     .single-skils-area .skills-text h6 {
       font-size: 18px; }
     .single-skils-area .skills-text p {
@@ -590,7 +590,7 @@ textarea:focus {
   z-index: 1;
   margin-bottom: 90px; }
   .vcard-projects-menu .project-menu button {
-    font-size: 16px;
+    font-size: 20px;
     padding: 0 20px;
     color: #252525;
     background-color: transparent;
