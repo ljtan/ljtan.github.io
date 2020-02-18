@@ -484,7 +484,8 @@ textarea:focus {
       background-color: #141414;
       padding: 50px 70px; }
       .About-Me-area.horizontal .About-Me-content h5 {
-        color: #fff; }
+        color: #fff;
+        }
       .About-Me-area.horizontal .About-Me-content h3 {
         color: #fff; }
       @media only screen and (max-width: 767px) {
