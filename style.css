@@ -1266,7 +1266,7 @@ textarea:focus {
       content: '';
       top: 0;
       right: -107px;
-      background-color: #fff; }
+      background-color: #14c4ff; }
       @media only screen and (max-width: 767px) {
         .work-experience-timeline-wrapper .single-experience-timeline::after {
           right: -37px; } }
