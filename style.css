@@ -345,7 +345,7 @@ textarea:focus {
     .header-area .main-menu .classy-nav-container {
       background-color: transparent; }
     @media only screen and (max-width: 767px) {
-      .classy-navbar {
+      .header-area {
       display: none;}
       }
     .header-area .main-menu .classy-navbar {
@@ -407,10 +407,10 @@ textarea:focus {
     z-index: 100;
     box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.15); }
     .header-area.sticky .main-menu {
-      height: 80px;
+      height: 160px;
       background-color: #fff; }
       .header-area.sticky .main-menu .classy-navbar {
-        height: 80px; }
+        height: 160px; }
 
 /* :: 5.0 About-Me Area */
 .About-Me-area {
