@@ -344,6 +344,10 @@ textarea:focus {
     transition-duration: 700ms; }
     .header-area .main-menu .classy-nav-container {
       background-color: transparent; }
+    @media only screen and (max-width: 767px) {
+      .header-area {
+      display: none;}
+      }
     .header-area .main-menu .classy-navbar {
       height: 160px;
       padding: 0;
