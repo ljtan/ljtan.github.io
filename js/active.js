@@ -12,12 +12,12 @@
 
     // :: 2.0 Nav Active Code
     if ($.fn.classyNav) {
-        $('#vcardNav').classyNav();
+        $('Navigation').classyNav();
     }
 
     // :: 3.0 Masonary Gallery Active Code
     if ($.fn.imagesLoaded) {
-        $('.vcard-portfolio').imagesLoaded(function () {
+        $('.portfolio').imagesLoaded(function () {
             // filter items on button click
             $('.portfolio-menu').on('click', 'button', function () {
                 var filterValue = $(this).attr('data-filter');
@@ -26,7 +26,7 @@
                 });
             });
             // init Isotope
-            var $grid = $('.vcard-portfolio').isotope({
+            var $grid = $('.portfolio').isotope({
                 itemSelector: '.single-portfolio-area',
                 percentPosition: true,
                 masonry: {
@@ -44,9 +44,9 @@
 
     // :: 5.0 Mobile Menu Active Code
     $('.nav-toggle').on('click', function () {
-        $('.vcard-nav').toggleClass('on');
+        $('.navWrap').toggleClass('on');
     })
-    $('.vcard-nav').on('click', function () {
+    $('.navWrap').on('click', function () {
         $(this).removeClass('on');
     })
 
@@ -76,9 +76,9 @@
         });
     }
 
-    // :: 9.0 Testimonials Slides Active Code
+    // :: 9.0 awards Slides Active Code
     if ($.fn.owlCarousel) {
-        $(".testimonial-slides").owlCarousel({
+        $(".award-slides").owlCarousel({
             items: 3,
             loop: true,
             center: true,
@@ -149,7 +149,7 @@
 
     // :: 13.0 onePageNav Active Code
     if ($.fn.onePageNav) {
-        $('#vcardMenu').onePageNav({
+        $('#Menu').onePageNav({
             currentClass: 'active',
             scrollSpeed: 2000,
             easing: 'easeOutQuad'
