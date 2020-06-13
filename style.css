@@ -33,14 +33,22 @@ p {
   line-height: 2;
   font-weight: 400; }
 
-a,
+a{
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  text-decoration: none;
+  outline: 0 solid transparent;
+  color: #252525;
+  font-weight: 500;
+  font-size: 14px; }
+
 a:hover,
 a:focus {
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   text-decoration: none;
   outline: 0 solid transparent;
-  color: #252528;
+  color: #14c4ff;
   font-weight: 500;
   font-size: 14px; }
 
