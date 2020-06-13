@@ -296,8 +296,8 @@ textarea:focus {
   .button.contact-btn , .button.contact-btn:hover, .button.contact-btn:focus {
       color: #fff; }
 
-.contact-link a:hover , .contact-link a:focus, .contact-link a:active{
-        text-decoration: underline; }
+.contact-link:hover , .contact-link:focus, .contact-link:active{
+        color: #14c4ff; }
 
 /* :: 4.0 Header Area */
 .header-area {
