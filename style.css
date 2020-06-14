@@ -40,7 +40,7 @@ a{
   outline: 0 solid transparent;
   color: #252525;
   font-weight: 500;
-  font-size: 14px; }
+  font-size: 18px; }
 
 a:hover,
 a:focus {
@@ -50,7 +50,7 @@ a:focus {
   outline: 0 solid transparent;
   color: #14c4ff;
   font-weight: 500;
-  font-size: 14px; }
+  font-size: 18px; }
 
 
 ul,
@@ -75,7 +75,7 @@ img {
   margin-top: 50px !important; }
 
 .mt-70 {
-  margin-top: 70px !important; }
+  margin-top: 70px !impobrrtant; }
 
 .mt-80 {
   margin-top: 80px !important; }
@@ -271,7 +271,6 @@ textarea:focus {
   box-shadow: none;
   border-color: transparent; }
 
-
 /* Button */
 .button {
   display: inline-block;
@@ -398,8 +397,8 @@ textarea:focus {
     position: relative;
     z-index: 1; }
     .About-Me-area .About-Me-content h5 {
-      font-size: 22px;
-      font-style: italic;
+      font-size: 18px;
+      font-style: normal;
       margin-bottom: 10px;
       font-weight: 600; }
     .About-Me-area .About-Me-content h2 {
@@ -552,6 +551,9 @@ textarea:focus {
   .single-blue-area p {
     color: #252525;
     margin-bottom: 0; }
+    .single-blue-area .course-title .date p {
+      font-size: 18px;
+      font-weight: 600; }
 
 /* :: 9.0 project Area */
 .white-area {
