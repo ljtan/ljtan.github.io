@@ -37,8 +37,8 @@
     }
 
     // :: 4.0 Gallery Menu Style Active Code
-    $('.portfolio-menu button.btn').on('click', function () {
-        $('.portfolio-menu button.btn').removeClass('active');
+    $('.portfolio-menu button.button ').on('click', function () {
+        $('.portfolio-menu button.button ').removeClass('active');
         $(this).addClass('active');
     })
 

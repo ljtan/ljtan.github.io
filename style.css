@@ -291,7 +291,8 @@ img {
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   text-transform: capitalize;
-  background-color: #14c4ff; }
+  background-color: #14c4ff;
+  margin: 10px; }
   .button.active, .button:hover, .button:focus {
     font-size: 14px;
     font-weight: 600;
