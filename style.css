@@ -13,8 +13,16 @@
   margin: 0;
   padding: 0; }
 
+html {
+  box-sizing: border-box;
+}  
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif, serif;
   font-size: 14px; }
 
 h1,
@@ -140,6 +148,10 @@ img {
   padding-top: 100px;
   padding-bottom: 100px; }
 
+  .section-padding-100-50 {
+  padding-top: 100px;
+  padding-bottom: 50px; }
+
 .section-padding-100-0 {
   padding-top: 100px;
   padding-bottom: 0; }
@@ -264,13 +276,6 @@ img {
     height: 100%;
     content: ""; }
 
-
-input:focus,
-textarea:focus {
-  outline: none;
-  box-shadow: none;
-  border-color: transparent; }
-
 /* Button */
 .button {
   display: inline-block;
@@ -292,7 +297,7 @@ textarea:focus {
     font-weight: 600;
     color: #ffffff;
     background-color: #4169E1; }
-  .button.contact-btn , .button.contact-btn:hover, .button.contact-btn:focus {
+  .button.resume-button , .button.resume-button:hover, .button.resume-button:focus {
       color: #fff; }
 
 .contact-link:hover , .contact-link:focus, .contact-link:active{
@@ -357,19 +362,19 @@ textarea:focus {
           left: 0;
           content: '';
           z-index: -10; }
-  .header-area .contact-btn-area {
+  .header-area .resume-button-area {
     position: relative;
     z-index: 1;
     margin-left: 100px; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
-      .header-area .contact-btn-area {
+      .header-area .resume-button-area {
         margin-left: 30px; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .header-area .contact-btn-area {
+      .header-area .resume-button-area {
         margin-left: 20px;
         margin-top: 30px; } }
     @media only screen and (max-width: 767px) {
-      .header-area .contact-btn-area {
+      .header-area .resume-button-area {
         margin-left: 20px;
         margin-top: 30px; } }
   .header-area.sticky {
