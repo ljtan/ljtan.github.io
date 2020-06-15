@@ -456,32 +456,11 @@ img {
       font-size: 14px; }
       .About-Me-area .About-Me-content .social-info a:hover, .About-Me-area .About-Me-content .social-info a:focus {
         color: #14c4ff; }
-  .About-Me-area.horizontal {
-    position: relative;
-    z-index: 10;
-    height: auto !important;
-    margin: 8% 0; }
-    .About-Me-area.horizontal .About-Me-content {
-      display: inline-block;
-      background-color: #141414;
-      padding: 50px 70px; }
-      .About-Me-area.horizontal .About-Me-content h5 {
-        color: #fff;
-        }
-      .About-Me-area.horizontal .About-Me-content h3 {
-        color: #fff; }
-      @media only screen and (max-width: 767px) {
-        .About-Me-area.horizontal .About-Me-content {
-          padding: 15px; } }
-    .About-Me-area.horizontal .contact-info a {
-      color: #828282; }
-      .About-Me-area.horizontal .contact-info a:hover, .About-Me-area.horizontal .contact-info a:focus {
-        color: #14c4ff; }
-    .About-Me-area.horizontal .social-info a {
-      color: #14c4ff; }
-      .About-Me-area.horizontal .social-info a:hover, .About-Me-area.horizontal .social-info a:focus {
-        color: #fff; }
-
+  .About-Me-content img {
+    float:left;
+    padding-right:50px;
+    padding-bottom: 50px
+  }
 /* :: 6.0 About Me Area */
 .about-me-text {
   position: relative;
@@ -540,6 +519,7 @@ img {
   z-index: 1;
   background-color: #14c4ff; }
 
+
 .single-blue-area {
   position: relative;
   z-index: 1; }
@@ -559,6 +539,12 @@ img {
     .single-blue-area .course-title .date p {
       font-size: 18px;
       font-weight: 600; }
+ 
+  .blue-area h5 {
+          font-size: 24px; } }
+  @media only screen and (max-width: 767px) {
+        .blue-area h5 {
+          font-size: 16px; } }
 
 /* :: 9.0 project Area */
 .white-area {
@@ -612,7 +598,7 @@ img {
         .single-white-area .project-content .img-zoom a:hover {
           color: #252525; }
   .single-white-area:hover .project-content h5 {
-    color: #14c4ff; }
+    color: #252525 }
   .single-white-area:hover .project-content .img-zoom {
     right: 0; }
 
@@ -699,11 +685,8 @@ img {
   .award-slides:hover .owl-next {
     opacity: 1;
     visibility: visible; }
-  .award-slides.horizontal .owl-prev {
-    left: 0; }
-  .award-slides.horizontal .owl-next {
-    left: auto;
-    right: 0; }
+
+
 
 /* :: 12.0 Footer Area */
 .footer-area {
