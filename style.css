@@ -304,6 +304,10 @@ img {
 .contact-link:hover , .contact-link:focus, .contact-link:active{
         color: #14c4ff; }
 
+#logo:hover{
+  cursor: pointer;
+}
+
 /* :: 4.0 Header Area */
 .header-area {
   position: absolute;

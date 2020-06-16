@@ -36,6 +36,11 @@
         });
     }
 
+    //logo home button
+    $("#logo").click(function(){
+        console.log("test");
+        $("html").animate({scrollTop: 0},"slow");
+    });
     // :: 4.0 Gallery Menu Style Active Code
     $('.portfolio-menu button.button ').on('click', function () {
         $('.portfolio-menu button.button ').removeClass('active');
