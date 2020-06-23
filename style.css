@@ -604,8 +604,6 @@ img {
       height: 100%;
       top: 0;
       right: 0;
-      margin-left:500px;
-      margin-right:500px;
       text-align: center;
       z-index: 40;
       -webkit-transition-duration: 500ms;
