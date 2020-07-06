@@ -758,6 +758,10 @@ overflow: hidden;}
 .contact-area a{
   font-size:25px;
 }
+@media only screen and (max-width: 767px) {
+  .contact-area a{
+  font-size:16px;
+}}
 
 .contact-form-area .form-control {
   height: 50px;
