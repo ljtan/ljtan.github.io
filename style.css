@@ -492,8 +492,9 @@ overflow: hidden;}
         color: #14c4ff; }
   .About-Me-content img {
     float:left;
+    display:inline-block;
     padding-right:50px;
-    padding-bottom: 50px
+    padding-bottom: 50px;
   }
 /* :: 6.0 About Me Area */
 .about-me-text {
