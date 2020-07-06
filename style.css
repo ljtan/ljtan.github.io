@@ -152,6 +152,10 @@ img {
   padding-top: 100px;
   padding-bottom: 50px; }
 
+.section-padding-100-10 {
+  padding-top: 100px;
+  padding-bottom: 10px; }
+
 .section-padding-100-0 {
   padding-top: 100px;
   padding-bottom: 0; }
@@ -172,7 +176,7 @@ img {
     display: block;
     background-color: #14c4ff; }
   .section-heading h2 {
-    margin-bottom: 0;
+    margin-bottom: 25px;
     font-size: 48px;
     color: #252525; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -279,7 +283,6 @@ img {
 /* Button */
 .button {
   display: inline-block;
-  min-width: 185px;
   height: 54px;
   color: #ffffff;
   border: none;
@@ -292,7 +295,9 @@ img {
   transition-duration: 500ms;
   text-transform: capitalize;
   background-color: #14c4ff;
-  margin: 30px; }
+  margin: 30px; 
+overflow: hidden;}
+
   .button.active, .button:hover, .button:focus {
     font-size: 14px;
     font-weight: 600;
@@ -385,16 +390,6 @@ img {
     z-index: 1;
  }
 
-    @media only screen and (min-width: 992px) and (max-width: 1256px) {
-      .header-area .resume-button-area {
-        margin-top: 30px; } }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .header-area .resume-button-area {
-        margin-top: 30px; } }
-    @media only screen and (max-width: 767px) {
-      .header-area .resume-button-area {
-        margin-top: 30px; } }
-
   .header-area.sticky {
     position: fixed;
     width: 100%;
@@ -423,7 +418,14 @@ img {
       font-size: 18px;
       font-style: normal;
       margin-bottom: 10px;
-      font-weight: 600; }
+      font-weight: 500; }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+        .About-Me-area .About-Me-content h5 {
+          font-size: 16px; } }
+      @media only screen and (max-width: 767px) {
+        .About-Me-area .About-Me-content h5 {
+          font-size: 12px; } }
+
     .About-Me-area .About-Me-content h2 {
       font-size: 92px;
       color: #14c4ff;
@@ -563,15 +565,8 @@ img {
       font-weight: 600; }
  
   .blue-area h5 {
-          font-size: 24px; } }
-  @media only screen and (max-width: 767px) {
-        .blue-area h5 {
-          font-size: 16px; } }
-
-#Experiences{
-  top:-90px;
-  margin-bottom: -100px;
-}
+    text-align: center;
+           } 
 
 /* :: 9.0 project Area */
 .white-area {
@@ -628,7 +623,12 @@ img {
     color: #252525 }
   .single-white-area:hover .project-content .img-zoom {
     right: 0; }
-
+.white-area h5 {
+      font-weight: 600;
+      font-size: 20px;
+      margin-bottom: 0;
+      -webkit-transition-duration: 500ms;
+      transition-duration: 500ms; }
 /* :: 11.0 awards Area */
 .single-award {
   position: relative;
@@ -755,6 +755,9 @@ img {
    			display:none;
        		}}
 
+.contact-area a{
+  font-size:25px;
+}
 
 .contact-form-area .form-control {
   height: 50px;
