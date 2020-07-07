@@ -310,13 +310,12 @@
  @media only screen and (max-width: 480px) {
      .button{
          font-size:10px;
-         padding:0;
          margin: 0 0 0 30px;
     }
 }
- @media only screen and (max-width: 190px) {
+ @media only screen and (max-width: 250px) {
      .button{
-         margin:0;
+         display:none !important;
     }
 }
  .button.active, .button:hover, .button:focus {
@@ -334,7 +333,7 @@
  #logo:hover{
      cursor: pointer;
 }
- @media only screen and (max-width: 390px) {
+ @media only screen and (max-width: 420px) {
      #logo {
          display:none;
     }
@@ -470,6 +469,10 @@ position: fixed;
 .footer-area .copy p{
     margin-top:100px;
     margin-bottom:100px;
+}
+
+.top{
+    opacity:1;
 }
 
 @media only screen and (max-width: 767px) {
