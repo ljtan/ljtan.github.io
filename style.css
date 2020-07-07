@@ -1034,6 +1034,7 @@
     }
 }
 @media only screen and (max-width: 1000px) {
-    .description{
-        clear:both;
+    .description {
+        clear: both;
     } 
+}
