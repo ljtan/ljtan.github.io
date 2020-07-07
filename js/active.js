@@ -1,11 +1,11 @@
-(function ($) {
+(function($) {
     'use strict';
 
     var browserWindow = $(window);
 
     // :: 1.0 Preloader Active Code
-    browserWindow.on('load', function () {
-        $('#preloader').fadeOut('slow', function () {
+    browserWindow.on('load', function() {
+        $('#preloader').fadeOut('slow', function() {
             $(this).remove();
         });
     });
@@ -17,9 +17,9 @@
 
     // :: 3.0 Masonary Gallery Active Code
     if ($.fn.imagesLoaded) {
-        $('.portfolio').imagesLoaded(function () {
+        $('.portfolio').imagesLoaded(function() {
             // filter items on button click
-            $('.portfolio-menu').on('click', 'button', function () {
+            $('.portfolio-menu').on('click', 'button', function() {
                 var filterValue = $(this).attr('data-filter');
                 $grid.isotope({
                     filter: filterValue
@@ -37,21 +37,23 @@
     }
 
     //logo home button
-    $("#logo").click(function(){
+    $("#logo").click(function() {
         console.log("test");
-        $("html").animate({scrollTop: 0},"slow");
+        $("html").animate({
+            scrollTop: 0
+        }, "slow");
     });
     // :: 4.0 Gallery Menu Style Active Code
-    $('.portfolio-menu button.button ').on('click', function () {
+    $('.portfolio-menu button.button ').on('click', function() {
         $('.portfolio-menu button.button ').removeClass('active');
         $(this).addClass('active');
     })
 
     // :: 5.0 Mobile Menu Active Code
-    $('.nav-toggle').on('click', function () {
+    $('.nav-toggle').on('click', function() {
         $('.navWrap').toggleClass('on');
     })
-    $('.navWrap').on('click', function () {
+    $('.navWrap').on('click', function() {
         $(this).removeClass('on');
     })
 
@@ -107,7 +109,7 @@
     }
 
     // :: 10.0 Sticky Active Code
-    browserWindow.on('scroll', function () {
+    browserWindow.on('scroll', function() {
         if (browserWindow.scrollTop() > 0) {
             $('.header-area').addClass('sticky');
         } else {
@@ -174,7 +176,7 @@
     }
 
     // :: 16.0 prevent default a click
-    $('a[href="#"]').on('click', function ($) {
+    $('a[href="#"]').on('click', function($) {
         $.preventDefault()
     });
 
