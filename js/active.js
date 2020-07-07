@@ -180,4 +180,12 @@
         $.preventDefault()
     });
 
+
+var newDate = new Date();
+newDate.setDate(newDate.getDate() + 1);
+
+//or insert it via javascript
+document.getElementById('displayDate').innerHTML = newDate.getFullYear();
+
+
 })(jQuery);
