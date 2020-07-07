@@ -525,6 +525,7 @@ overflow: hidden;}
 .description{
     margin-bottom: 50px;
 }
+
 /* :: 7.0 Skills Area */
 .single-skills-area {
   position: relative;
@@ -903,3 +904,7 @@ overflow: hidden;}
         padding-right: 0;
         margin-left: 0;
         margin-right: 0; } }
+@media only screen and (max-width: 1000px) {
+  .description{
+    clear:both;
+  }
