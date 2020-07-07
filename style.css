@@ -460,8 +460,13 @@ position: fixed;
   width: 100%;
   display:visible;
   background:white;
-  padding:10px;
+  padding:0 10px 10px 10px;
 }
+
+ @media only screen and (max-width: 767px) {
+    .footer-area .bot {
+        display:none;
+        }}
 
 /* :: 5.0 About-Me Area */
  .About-Me-area {
