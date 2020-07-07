@@ -305,7 +305,7 @@
      text-transform: capitalize;
      background-color: #14c4ff;
      margin: 30px;
-     overflow: visible;
+     overflow: hidden;
 }
  .button.active, .button:hover, .button:focus {
      font-size: 14px;
