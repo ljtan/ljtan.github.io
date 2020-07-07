@@ -467,6 +467,16 @@ position: fixed;
     padding:10px;
     }
 
+.footer-area .copy p{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+
+@media only screen and (max-width: 767px) {
+    .footer-area .copy p{
+        margin:0;
+        }}
+
  @media only screen and (max-width: 767px) {
     .footer-area .bot {
         display:none;
