@@ -3,7 +3,8 @@
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */:root {
+ */
+ :root{
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -8999,7 +9000,7 @@ a.text-dark:focus,a.text-dark:hover {
 
   h2,h3 {
     page-break-after: avoid;
-  }@  page {
+  }@page {
     size: a3;
   }
 
