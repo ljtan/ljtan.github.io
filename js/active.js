@@ -75,9 +75,9 @@
         });
     }
 
-    $(window).scroll(function(){
-    $(".top").css("opacity", 1 - $(window).scrollTop() / 250);
-  });
+    $(window).scroll(function() {
+        $(".top").css("opacity", 1 - $(window).scrollTop() / 250);
+    });
 
     // :: 8.0 CouterUp Active Code
     if ($.fn.counterUp) {
@@ -184,21 +184,23 @@
         $.preventDefault()
     });
 
-     window.onscroll = function() {myFunction()};
+    window.onscroll = function() {
+        myFunction()
+    };
 
-function myFunction() {
-  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  var scrolled = (winScroll / height) * 100;
-  document.getElementById("myBar").style.width = scrolled + "%";
-}
+    function myFunction() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("myBar").style.width = scrolled + "%";
+    }
 
 
-var newDate = new Date();
-newDate.setDate(newDate.getDate() + 1);
+    var newDate = new Date();
+    newDate.setDate(newDate.getDate() + 1);
 
-//or insert it via javascript
-document.getElementById('displayDate').innerHTML = newDate.getFullYear();
+    //or insert it via javascript
+    document.getElementById('displayDate').innerHTML = newDate.getFullYear();
 
 
 })(jQuery);
