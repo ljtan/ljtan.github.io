@@ -734,10 +734,10 @@
  .single-white-area .project-content .img-zoom a:hover {
      color: #252525;
 }
- .single-white-area:hover .project-content h5 {
+ .single-white-area .project-content h5 {
      color: #252525 
 }
- .single-white-area:hover .project-content .img-zoom {
+ .single-white-area .project-content .img-zoom {
      right: 0;
 }
  .white-area h5 {
@@ -747,6 +747,22 @@
      -webkit-transition-duration: 500ms;
      transition-duration: 500ms;
 }
+
+    .project-link{
+        font-weight: 600;
+     font-size: 20px;
+     margin-bottom: 0;
+     -webkit-transition-duration: 500ms;
+     transition-duration: 500ms;
+    }
+
+     .project-link:hover{
+        font-weight: 600;
+     font-size: 20px;
+     margin-bottom: 0;
+     -webkit-transition-duration: 500ms;
+     transition-duration: 500ms;
+    }
 /* :: 11.0 awards Area */
  .single-award {
      position: relative;
