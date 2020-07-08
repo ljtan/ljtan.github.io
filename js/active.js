@@ -99,13 +99,10 @@
             nav: true,
             navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
             responsive: {
-                320: {
+                0: {
                     items: 1
                 },
-                576: {
-                    items: 2
-                },
-                992: {
+                767: {
                     items: 3
                 }
             }

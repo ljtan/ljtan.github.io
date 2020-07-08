@@ -819,25 +819,7 @@
      margin-bottom: 0;
      opacity: 0.7;
 }
- .single-award .award-author-info img {
-     border-radius: 50%;
-     width: 60px;
-     height: 60px;
-     margin-bottom: 15px;
-     opacity: 0.7;
-     margin-left: auto;
-     margin-right: auto;
-}
- .single-award .award-author-info h6 {
-     font-size: 14px;
-     margin-bottom: 0;
-     opacity: 0.7;
-     color: #828282;
-}
- .single-award .award-author-info h6 span {
-     opacity: 0.7;
-     color: #828282;
-}
+
  .award-slides {
      position: relative;
      z-index: 1;
@@ -855,17 +837,7 @@
  .award-slides .center .single-award p {
      opacity: 1;
 }
- .award-slides .center .single-award .award-author-info img {
-     opacity: 1;
-}
- .award-slides .center .single-award .award-author-info h6 {
-     opacity: 1;
-     color: #252525;
-}
- .award-slides .center .single-award .award-author-info h6 span {
-     color: #14c4ff;
-     opacity: 1;
-}
+ 
  .award-slides .owl-prev, .award-slides .owl-next {
      width: 50px;
      height: 50px;
