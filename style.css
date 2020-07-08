@@ -464,9 +464,9 @@
      margin-top:100px;
      margin-bottom:100px;
 }
- .top{
+/* .top{
      opacity:1;
-}
+}*/
  @media only screen and (max-width: 767px) {
      .footer-area .copy p{
          margin:0;

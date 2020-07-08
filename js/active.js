@@ -75,9 +75,9 @@
         });
     }
 
-    $(window).scroll(function() {
-        $(".top").css("opacity", 1 - $(window).scrollTop() / 250);
-    });
+    // $(window).scroll(function() {
+    //     $(".top").css("opacity", 1 - $(window).scrollTop() / 250);
+    // });
 
     // :: 8.0 CouterUp Active Code
     if ($.fn.counterUp) {
