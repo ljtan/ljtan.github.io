@@ -545,7 +545,7 @@
 }
  @media only screen and (max-width: 767px) {
      .About-Me-area .About-Me-content h3 {
-         font-size: 16px;
+         font-size: 20px;
     }
 }
  .About-Me-area .About-Me-content h4 {
@@ -560,7 +560,7 @@
 }
  @media only screen and (max-width: 767px) {
      .About-Me-area .About-Me-content h4 {
-         font-size: 16px;
+         font-size: 20px;
     }
 }
  .About-Me-area .About-Me-content .contact-info a {
