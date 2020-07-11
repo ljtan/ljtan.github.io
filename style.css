@@ -340,7 +340,7 @@
 }
 /* :: 4.0 Header Area */
  .header-area {
-     position: absolute;
+     position: fixed;
      z-index: 100;
      width: 100%;
      top: 0;
@@ -358,7 +358,7 @@
      transition-duration: 700ms;
 }
  .header-area .main-menu .classy-nav-container {
-     background-color: transparent;
+     background-color: white;
 }
  .header-area .main-menu .classy-navbar {
      height: 100px;
