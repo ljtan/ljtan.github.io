@@ -181,9 +181,21 @@
         $.preventDefault()
     });
 
-    window.onscroll = function() {
-        setWidth()
-    };
+
+    let last_known_scroll_position = 0;
+    let ticking = false;
+    window.addEventListener('scroll', function(e) {
+        last_known_scroll_position = window.scrollY;
+
+        if (!ticking) {
+            window.requestAnimationFrame(function() {
+                setWidth(last_known_scroll_position);
+                ticking = false;
+            });
+
+            ticking = true;
+        }
+    });
 
     function setWidth() {
         var winScroll = document.body.scrollTop || document.documentElement.scrollTop;

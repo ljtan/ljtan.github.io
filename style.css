@@ -466,7 +466,8 @@
 }
 /* .top{
      opacity:1;
-}*/
+}
+*/
  @media only screen and (max-width: 767px) {
      .footer-area .copy p{
          margin:0;
@@ -482,8 +483,9 @@
      position: relative;
      z-index: 1;
      margin-top:100px;
-/*     background-image: url(img/first.jpg);
-    background-size: cover;*/
+    /* background-image: url(img/first.jpg);
+     background-size: cover;
+    */
 }
  @media only screen and (max-width: 767px) {
      .About-Me-area {
@@ -493,14 +495,15 @@
  .About-Me-area .About-Me-content {
      position: relative;
      z-index: 1;
-/*     background-color: rgba(255, 255, 255, 0.66);
+    /* background-color: rgba(255, 255, 255, 0.66);
      width:40%;
      height:100%;
      min-height: 750px;
      padding:50px;
      float:right;
      right:50px;
-     bottom:0;*/
+     bottom:0;
+    */
 }
  .About-Me-area .About-Me-content h5 {
      font-size: 18px;
@@ -722,29 +725,31 @@
  .blue-area h5 {
      text-align: center;
 }
-
 /* ScrollUp */
-#scrollUp {
-  background-color: #14c4ff;
-  border-radius: 0;
-  bottom: 100px;
-  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
-  color: #ffffff;
-  font-size: 24px;
-  height: 40px;
-  line-height: 38px;
-  right: 60px;
-  text-align: center;
-  width: 40px;
-  -webkit-transition-duration: 500ms;
-  transition-duration: 500ms; }
-  #scrollUp:hover {
-    background-color: #000000; }
-  @media only screen and (max-width: 767px) {
-    #scrollUp {
-      bottom: 30px;
-      right: 30px; } }
-
+ #scrollUp {
+     background-color: #14c4ff;
+     border-radius: 0;
+     bottom: 100px;
+     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
+     color: #ffffff;
+     font-size: 24px;
+     height: 40px;
+     line-height: 38px;
+     right: 60px;
+     text-align: center;
+     width: 40px;
+     -webkit-transition-duration: 500ms;
+     transition-duration: 500ms;
+}
+ #scrollUp:hover {
+     background-color: #000000;
+}
+ @media only screen and (max-width: 767px) {
+     #scrollUp {
+         bottom: 30px;
+         right: 30px;
+    }
+}
 /* :: 9.0 project Area */
  .white-area {
      position: relative;
@@ -853,7 +858,6 @@
      margin-bottom: 0;
      opacity: 0.7;
 }
-
  .award-slides {
      position: relative;
      z-index: 1;
@@ -871,7 +875,6 @@
  .award-slides .center .single-award p {
      opacity: 1;
 }
- 
  .award-slides .owl-prev, .award-slides .owl-next {
      width: 50px;
      height: 50px;
