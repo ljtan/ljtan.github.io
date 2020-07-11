@@ -47,15 +47,15 @@
     $('.portfolio-menu button.button ').on('click', function() {
         $('.portfolio-menu button.button ').removeClass('active');
         $(this).addClass('active');
-    })
+    });
 
     // :: Mobile Menu Active Code
     $('.nav-toggle').on('click', function() {
         $('.navWrap').toggleClass('on');
-    })
+    });
     $('.navWrap').on('click', function() {
         $(this).removeClass('on');
-    })
+    });
 
     // :: Image Popup Active Code
     if ($.fn.magnificPopup) {
@@ -102,7 +102,7 @@
                     items: 3
                 }
             }
-        })
+        });
     }
 
     // :: Sticky Active Code
@@ -174,10 +174,10 @@
 
     // :: 16.0 prevent default a click
     $('a[href="#"]').on('click', function($) {
-        $.preventDefault()
+        $.preventDefault();
     });
 
-	// :: scroll progress bar
+    // :: scroll progress bar
     let last_known_scroll_position = 0;
     let ticking = false;
     window.addEventListener('scroll', function(e) {
