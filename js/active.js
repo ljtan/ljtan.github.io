@@ -10,6 +10,28 @@
         });
     });
 
+    // :: awards Slides Active Code
+    if ($.fn.owlCarousel) {
+        $(".award-slides").owlCarousel({
+            items: 3,
+            loop: true,
+            center: true,
+            autoplay: true,
+            smartSpeed: 1500,
+            margin: 30,
+            nav: true,
+            navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                767: {
+                    items: 3
+                }
+            }
+        });
+    }
+
     // 2.0 Nav Active Code
     if ($.fn.classyNav) {
         $('Navigation').classyNav();
@@ -83,27 +105,6 @@
         });
     }
 
-    // :: awards Slides Active Code
-    if ($.fn.owlCarousel) {
-        $(".award-slides").owlCarousel({
-            items: 3,
-            loop: true,
-            center: true,
-            autoplay: true,
-            smartSpeed: 1500,
-            margin: 30,
-            nav: true,
-            navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-            responsive: {
-                0: {
-                    items: 1
-                },
-                767: {
-                    items: 3
-                }
-            }
-        });
-    }
 
     // :: Sticky Active Code
     browserWindow.on('scroll', function() {
