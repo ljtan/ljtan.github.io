@@ -875,23 +875,24 @@
  .award-slides .center .single-award p {
      opacity: 1;
 }
- .award-slides .owl-prev, .award-slides .owl-next {
-     width: 50px;
-     height: 50px;
-     background-color: #14c4ff;
-     border-radius: 50%;
-     text-align: center;
-     line-height: 50px;
-     font-size: 20px;
-     color: #fff;
-     -webkit-transition-duration: 500ms;
-     transition-duration: 500ms;
-     position: absolute;
-     top: 50%;
-     margin-top: -25px;
-     left: -3%;
-     opacity: 0;
-     visibility: hidden;
+ .award-slides .owl-prev,
+ .award-slides .owl-next {
+    width: 50px;
+    height: 50px;
+    background-color: #14c4ff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: #fff;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    left: -3%;
+    opacity: 0;
+    visibility: hidden; 
 }
  .award-slides .owl-prev:hover, .award-slides .owl-next:hover {
      background-color: #252525;
@@ -900,10 +901,18 @@
      left: auto;
      right: -3%;
 }
- .award-slides:hover .owl-prev, .award-slides:hover .owl-next {
+ .award-slides:hover .owl-prev,
+ .award-slides:hover .owl-next {
      opacity: 1;
      visibility: visible;
 }
+
+.award-slides.horizontal .owl-prev {
+    left: 0; }
+  .award-slides.horizontal .owl-next {
+    left: auto;
+    right: 0; }
+
  .blue-area .gpa h5{
      font-size:25px;
      text-decoration: underline;
