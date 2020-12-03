@@ -686,6 +686,12 @@
  .single-skills-area .skills-text p {
      margin-bottom: 0;
 }
+
+.courses a:hover, a:focus{
+	color: #252525;
+	text-decoration: underline;
+}
+
 /* :: 8.0 course Area */
  .blue-area {
      position: relative;
@@ -725,6 +731,26 @@
  .blue-area h5 {
      text-align: center;
 }
+
+.blue-area h4{
+	text-align: center;
+	font-weight:600;
+}
+
+.blue-area h4 a{
+	font-size: 24px;
+	font-weight:600;
+}
+
+@media only screen and (max-width: 767px) {
+	.blue-area h4 a{
+	font-size: 20px;
+	}
+	.blue-area h4{
+	font-size: 20px;
+	}		
+}
+
 /* ScrollUp */
  #scrollUp {
      background-color: #14c4ff;
