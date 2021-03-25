@@ -850,6 +850,20 @@
      -webkit-transition-duration: 500ms;
      transition-duration: 500ms;
 }
+.white-area p a{
+    color: #000000;
+    text-decoration: underline;
+     font-size: 14px;
+     line-height: 2;
+     font-weight: 400;
+}
+.white-area p a:hover, s:focus{
+    color: #14c4ff;
+    text-decoration: underline;
+     font-size: 14px;
+     line-height: 2;
+     font-weight: 400;
+}
  .project-link{
      font-weight: 600;
      font-size: 20px;
