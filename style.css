@@ -49,7 +49,7 @@ h5, h6 {
      outline: 0 solid transparent;
      color: #252525;
      font-weight: 500;
-     font-size: 18px;
+     /*font-size: 18px;*/
 }
  a:hover, a:focus {
      -webkit-transition-duration: 500ms;
@@ -58,7 +58,7 @@ h5, h6 {
      outline: 0 solid transparent;
      color: #14c4ff;
      font-weight: 500;
-     font-size: 18px;
+     /*font-size: 18px;*/
 }
  ul, ol {
      margin: 0;
