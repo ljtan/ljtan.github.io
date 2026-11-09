@@ -16105,3 +16105,6 @@ html:not(.dark) #darkModeToggle { background-color: #0a2e3f; }
 html:not(.dark) #darkModeToggle:hover { background-color: #101820; }
 html.dark #darkModeToggle { background-color: #ffffff; color: #14c4ff; }
 html.dark #darkModeToggle:hover { background-color: #eef4f8; }
+
+/* Dark mode (Nov 8, 2026): the hero name takes the standard heading color, aligning with the subtitle and every other dark-mode heading (light mode keeps the blue branding). */
+html.dark .About-Me-area .About-Me-content h2 { color: #eef4f8; }
