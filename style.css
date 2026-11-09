@@ -16056,8 +16056,10 @@ html.dark .header-area .main-menu .classy-navbar .classynav > ul > li > a { colo
 html.dark .header-area .main-menu .classy-navbar .classynav > ul > li.active > a { color: #eef4f8; }
 html.dark .award-slides .center .single-award h5 { color: #eef4f8; }
 
-/* Dark mode (Nov 9, 2026): the Awards carousel prev/next buttons take the Skills section blue (#14c4ff, the .blue-area color) on hover; on press they turn black (#252525). The :hover:active selectors outrank the plain :hover rule so the press color always wins while clicking. */
+/* Dark mode (Nov 9, 2026): the Awards carousel prev/next buttons take the Skills section blue (#14c4ff, the .blue-area color) on hover and turn black (#252525) on press. The blue hover is scoped to devices with a true mouse hover: on touch screens :hover sticks after a tap, which would leave the button blue after clicking, so touch keeps the original behavior (the base hover rule and the :active rule below make taps black). */
+@media (hover: hover) and (pointer: fine) {
 html.dark .award-slides .owl-prev:hover, html.dark .award-slides .owl-next:hover { background-color: #14c4ff; }
+}
 html.dark .award-slides .owl-prev:active, html.dark .award-slides .owl-next:active, html.dark .award-slides .owl-prev:hover:active, html.dark .award-slides .owl-next:hover:active { background-color: #252525; }
 html.dark .single-award h5 { color: #c8d6e0; }
 html.dark .contact-area .contact-link, html.dark .contact-link { color: #d7e5ee; }
