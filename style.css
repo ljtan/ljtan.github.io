@@ -16089,3 +16089,6 @@ html.dark #scrollUp:hover { background-color: #0a2e3f; }
 
 /* Back-to-top button (Nov 8, 2026): black border in both modes. */
 #scrollUp { border: 2px solid #000; }
+
+/* Dark mode (Nov 8, 2026): the back-to-top button's border goes white so the dark button stays outlined on dark backgrounds. */
+html.dark #scrollUp { border-color: #fff; }
