@@ -105,6 +105,14 @@
         });
     }
 
+    // :: Awards carousel recalculation on full load.
+    // On wide screens the carousel can measure its stage before the final
+    // layout settles, leaving it shifted until a manual window resize;
+    // refreshing on window load performs that same recalculation automatically.
+    browserWindow.on('load', function() {
+        $(".award-slides").trigger('refresh.owl.carousel');
+    });
+
     // :: Sticky Active Code
     browserWindow.on('scroll', function() {
         if (browserWindow.scrollTop() > 0) {
