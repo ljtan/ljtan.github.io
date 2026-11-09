@@ -16115,3 +16115,8 @@ html.dark .header-area .main-menu .classy-nav-container { background-color: #101
 html.dark .classy-navbar { background-color: #101820; }
 html.dark .header-area.sticky .main-menu { background-color: #101820; }
 html.dark .classy-menu { background-color: #101820; }
+
+/* Mobile (Nov 8, 2026): the template drops the back-to-top button to bottom:30px/right:30px, exactly on top of the dark-mode toggle. Lift it above the toggle, centered on the same column, mirroring the desktop stack. */
+@media only screen and (max-width: 767px) {
+    #scrollUp { bottom: 86px; right: 26px; }
+}
