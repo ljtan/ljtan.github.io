@@ -16092,3 +16092,6 @@ html.dark #scrollUp:hover { background-color: #0a2e3f; }
 
 /* Dark mode (Nov 8, 2026): the back-to-top button's border goes white so the dark button stays outlined on dark backgrounds. */
 html.dark #scrollUp { border-color: #fff; }
+
+/* Light mode (Nov 8, 2026): the back-to-top chevron itself goes black. */
+html:not(.dark) #scrollUp { color: #000; }
