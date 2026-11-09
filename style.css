@@ -16108,3 +16108,10 @@ html.dark #darkModeToggle:hover { background-color: #eef4f8; }
 
 /* Dark mode (Nov 8, 2026): the hero name takes the standard heading color, aligning with the subtitle and every other dark-mode heading (light mode keeps the blue branding). */
 html.dark .About-Me-area .About-Me-content h2 { color: #eef4f8; }
+
+/* Dark mode (Nov 8, 2026): the whole top-menu stack takes the one unified shade - header, nav container, navbar, sticky bar, and the mobile menu were three different colors (and the sticky bar was still white). */
+html.dark .header-area { background-color: #101820; }
+html.dark .header-area .main-menu .classy-nav-container { background-color: #101820; }
+html.dark .classy-navbar { background-color: #101820; }
+html.dark .header-area.sticky .main-menu { background-color: #101820; }
+html.dark .classy-menu { background-color: #101820; }
