@@ -14213,13 +14213,6 @@ img{
     height:auto;
     line-height:1
 }
-@font-face{
-    font-family:classyfonts;
-    src:url(fonts/classy.eot?fftrrv);
-    src:url(fonts/classy.eot?fftrrv#iefix) format("embedded-opentype"),url(fonts/classy.ttf?fftrrv) format("truetype"),url(fonts/classy.woff?fftrrv) format("woff"),url(fonts/classy.svg?fftrrv#classyfonts) format("svg");
-    font-weight:400;
-    font-style:normal
-}
 .icon-classy-nav-down-arrow{
     font-family:classyfonts;
     font-style:normal;
