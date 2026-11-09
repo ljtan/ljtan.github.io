@@ -1,1 +1,526 @@
-JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUiAvRjMgNCAwIFIgL0Y0IDUgMCBSCj4+CmVuZG9iagoyIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GMSAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjMgMCBvYmoKPDwKL0Jhc2VGb250IC9UaW1lcy1Cb2xkIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GMiAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjQgMCBvYmoKPDwKL0Jhc2VGb250IC9UaW1lcy1Sb21hbiAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjMgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iago1IDAgb2JqCjw8Ci9CYXNlRm9udCAvVGltZXMtSXRhbGljIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GNCAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjYgMCBvYmoKPDwKL0NvbnRlbnRzIDEwIDAgUiAvTWVkaWFCb3ggWyAwIDAgNjEyIDc5MiBdIC9QYXJlbnQgOSAwIFIgL1Jlc291cmNlcyA8PAovRm9udCAxIDAgUiAvUHJvY1NldCBbIC9QREYgL1RleHQgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXQo+PiAvUm90YXRlIDAgL1RyYW5zIDw8Cgo+PiAKICAvVHlwZSAvUGFnZQo+PgplbmRvYmoKNyAwIG9iago8PAovUGFnZU1vZGUgL1VzZU5vbmUgL1BhZ2VzIDkgMCBSIC9UeXBlIC9DYXRhbG9nCj4+CmVuZG9iago4IDAgb2JqCjw8Ci9BdXRob3IgKExpdSBKYXNvbiBUYW4pIC9DcmVhdGlvbkRhdGUgKEQ6MjAyNjExMDgxOTM2MzgtMDUnMDAnKSAvQ3JlYXRvciAoXCh1bnNwZWNpZmllZFwpKSAvS2V5d29yZHMgKCkgL01vZERhdGUgKEQ6MjAyNjExMDgxOTM2MzgtMDUnMDAnKSAvUHJvZHVjZXIgKFJlcG9ydExhYiBQREYgTGlicmFyeSAtIFwob3BlbnNvdXJjZVwpKSAKICAvU3ViamVjdCAoXCh1bnNwZWNpZmllZFwpKSAvVGl0bGUgKExpdSBKYXNvbiBUYW4gLSBSZXN1bWUpIC9UcmFwcGVkIC9GYWxzZQo+PgplbmRvYmoKOSAwIG9iago8PAovQ291bnQgMSAvS2lkcyBbIDYgMCBSIF0gL1R5cGUgL1BhZ2VzCj4+CmVuZG9iagoxMCAwIG9iago8PAovRmlsdGVyIFsgL0FTQ0lJODVEZWNvZGUgL0ZsYXRlRGVjb2RlIF0gL0xlbmd0aCAzMjQ1Cj4+CnN0cmVhbQpHYiEjXj8kIl5qKDRGTjRrYTB0Q0chU1MhTjYwT1htKisqOjJTZ1pGO3JzPzhDLiQkPjJzSFhwMFhYLG9jZz0yUCIjYGlNTHBwOTlUZEJDMTU1M2k1Njw7Ij1kIWBuT0BqYVdlcGNgNHNgLmlJZUNdazIqXU9ZWm0yZGJIcW8vaUYzPURVRUouRiwvKEY2ZEg5Iyo0THNoPEpnREBBZXA4RDskRnJCVjJNNyRlanU7J0EmIUc0MUxMWV1BUV4/MldYLVQpaCk1NUokU0BnUmlxUFByZD9GYCUibjZgaXAzWmQxbj5wKXJPbGFeb2NTJy0+R1ZQNSNQQ1JQcCs6JiMyNitvclVEaiJfOTRcXV8rZjBkXFgrLy9OL1tDTiJKT2csUVNFMExxXixuSClJIWM/I1dVPDIhPD1uS186b1psRmthb3QhQ2pATEpaUm5dN3AuaGJxWlInRS8jUEktPm5fQkYuXCQ9LilgUTJiWUlYczcpQzlPUixmOVwrPlpJOlVFW1RZPmIpKGQkUjNcQlpuajInRjVWZiQtbElYUDMnSFomUklkLjRnL21pc0drYmYoIT5JQT5TYU4mQk9tI2lBTydvREteZmcmaFBcbDAiNT9rMiFKM2IhLCdeW3RxP0lnWEhebmtIOSRAKi1DQGhfKjA9RCtIMlRdbHJhRTBbQ1Q6YChKNDlXOFFYbzZyTHFKYUtqRlleLUs9JlQ1O1g5RUk4P0dKWFFlP3MyQV8sNDQqRDkxVGprajZAVTVPISRYMC4qbUUlOyJoa2hVQzdEYmQmXXNjYFcwJSZyXSZIOD80VSNHUD80OClmXFdFIlpOQ0E7bHBAcDxDKSRGXUxiR0tYNTtDbk85WmEvKEBaKyEjXTZlakM5bEtcJkA1by5sKE1OJy8lU2o7PkMoQUtAVUxhLElDWTt1QEYuPSc0cD1hNWpEUjh0YnNZYWtgQFs7aSsxMGpaLCEjKUNhJiVdT1FxbzxiJHBXXE0jbFZAcTlmdW0/Wl9VaiglXzorLVNNbVdIZD5ON2ZhRkckTiYtJ2dRUDcwRUo8M187ZGdgQ0tjX29OMmgoOlxaQ0AvbFdAaj5vJjdGSlk4bl04KV1adDxfRFJPO3JjXChuWz5jU2AoMGo8SycrNSdfS20xL1IvQW5yJy9tNCYnMkdXWlM7clo5cUJlWFxUOS1iTnFKMVIoRkJrSSIrc05aKjhIS2NaamAvYVM7ZTlzaGJSSC9gMjJMJFIsJlslJD9nSktxLFpvU2puMlNuMFAzNFlZcm9NIkFJaGxQRSVHJD9kbyMqMzFYcCY0S2U7aDhsYUpeRS5jMUJFLjRnJUYzOyZcbkJjLmU2cSJmaiZmIllEWmROOVc+cDk9OmE8T1A/VlNOPiYmRSEjXCtiVktsU1s+IjxsXkJkQksrUFk9XV1gLkFIUVo4PWRNb3FOWlQ6Q2JfVTVCZ09vNWhSXi9YMmA5bDtCcEVNQUY1I05FP1laaXRDTmdfOHA9VjJDclIhSWIoNGB0LzMpITgzMGVUKkRmQCRBL01NV0gxIyQ0I1wmMlw8NXBmJHUxa1FhPj04MyI+bDkudWxMSmZRY2k6OUlEI3FHPUg1aGBqZD1kPCNCIURHRTVWb1g/WGxVXnFhMjIsR2xtcDNjXElIbzZBOGMyR0hVRWhtZShOVUsyNipiVGw3LFIhXGlkTjE8TEJLJU4kdCoiNWEjaCs3XCZTQWMkXV1OaiFISEZwOSJmNV4qSzFtYVguJytTIl5jai1KRj5gQitUKDJSYC0vP0MtbiZNKS9SOWpmRzVqQE9zdFhzTmZLMjwhJWllY0khcC8vKidDZjdLcD06cTx0RjZMOEs/OkNZPjlmXjZtXzYhSy1NTT1RKmBIKUkpWUNdb0tOaTFaKlpFPmk4MCxJZ1orK29MSkJONk1xdG9KXEVGWiVkM21vanN1VSg1aWImbWtuVHAiITBxIkQzOVVeRToiIjhhR0llQWJYczRbbVRuczU7SD1hckImbzdbVl5WaWFrQUosdGp1Q205Z20vPj5cSlMzOWkhdEpDIVpJJjBiZjYockh1Uy8kOmEhJ15UOiIkJF9XRERBTV9ySTwnOnFSWD1HUio7Zzc3JllNLCJdcVhrTyw7NjohPjg+YmpMNm8tTkBNNEk2YzpyKk1bK1EsQ0gocSM/TUklaGlESGAhTExhbyxjKEMyTS1ZTiZvJi85Xl9gWFpROTkoU21YLmRLRHFNUl1qPmZYOyFfTWBlInBKJjEzPHA5a3EzNzAvQ2tNJzQ8TCI3c2dhczNeVi9EJ0ZuPltVa0FSbVExQm9vR0w6cDxWJV4/P25FVmhLMVNpdEkiPyFDZVo4MVcpW0VFR0I+IjlCOnJNPXNwRW9ENEZXIjZtcWdMMVEoLjxsQT5cK2wkV0gqQGo/VykyXUZ1RDVyYFZqVV42Q3FpZCFgYXBVa0hCLixrRlNTSzwkRSZGTiF0bExpbHNQKFJlbEloWC1abF9lPUtsTGBDJ1JtOSpuUkZrSjZJNU9uVyZULzYoZFooRElyXjs3ckFoOXF0LSYhKzpURSZLUj51OWA1YVtAJyZUN1MycStfa1JGP0UlPGg6LEs2cigmITFKQ0okRGJoZF5tIkE7UG0sYClYM1cxZzNHcyJXQz5JQUBMJTtnXnQ4JSIjOSJfb15MRT1YWWpGTzchLGgvND1hVlM2KjhtT1ZYT0tRNS5WNzo6Ml0ldCk9TnJEXVVMTDBTNWFJS2A7LyotI1AtOVVSIUJlaDpWSE5zZ0RYZEM0V0w1NGttWS4qYUwtNmtGRG0nVlVaNiUyZEVCTllZMSlkLlQoVUNAWD9YNS8zOXEmbVtSYiphYGZENDFqNGtdOGBAVWQwaTZgLD9CXC5jIU5IPW8zbCx0aicubzxuNlZEbkNSLSdIYmQ7ZzYpVTcxK3Rjaiw1YWUkW2o1Sm8pV0dMRFtsYXRCKnBlISNpZik/XT1SPl4kSVknJEduJjIkLCRpLidHXU48YDQ6IldGODFFY19LOig+T2x1QzcvLyQvMTNrT1svO2ZGQG1qYTkjK25rbTQibmtcZjckSE85cTJtWEEnJkpmWWUlOiNBWG5LJEZqPzJoPWdrY2ZqLSpmak8iVmY5W2hsalxoLmxQNGNqT2hlJjNoNHIwI1hZc0BsO1dOLU4kalAtdUZbUSpRJFNKXzVkNTU5cDVkbXJgKUBAI084NG1OM0VrUUhfanMqRzI/akU+TjZwZyhCa1NvbENILi9GKUxgT3BSXTZmZWA/NV9AWXRSZ0VWIlM3NE1aKUBCRjUiSVBRUS9wWSNPZklRMUxCKitldTsvSzs7X1NCO1BBRChkMWs1W2suSEBbdGxqS1c2VS0rcVpeZS5lRUktOm9cNzUpYVREajhqVFBtVDglJClEKSdqW0BpJ3QnPWkqZlgkRiYuZ28nb25XayM6WFZeMEdqaGtBP2M1XywzKlIxc0FwNzZHNyYwaEkjRlE9TDhqQDBtaUpQK2diM2Q4XVUybVpuLSNKPEAuLzgwaGgyWFgqLGoxWjpPaipSQmAuRz1AcyQmT0lgT1ZyZXVycnArL1BfOidrS3BlJTZENTdkcD1nTUElTToiOzpvRWpeYFAtZGkoWT5ycj5FLWg9JGpsMS1nJ1tPYkoqW2hrZlQwJmhfTj9PUGxTUW0xISc9ayNDcDdwTS10L2I8U1dxWCZoPmBrYywpNFRINkBndChUMVInSUpHTklgJVhEazFQRkctMWc7WTQyT0hOO1VcbycyZTxQSUdvJExfNC50TFJWJFwuI2ArVjJvW0c1WDJwPCkoQzYzX1oodTR1VGdQUz89JWNtOCElbXUiUFRbKkhsYC5wMGorZEw3Rj9lW2dwTiZJOHVELzU3bSszbE1tXCtJV249cmBQJUUqaiQ/czA1ckZqKmBaKj0scW5MN2ouTl1IQlMubVVDK1drJiVvYypTYCsvQ1VyITxORzRZN3BBSUc0L3FLVFdJRXJNbDdPKCpFKVhmRVozY1JRRmwsb2slVFQrLzMlajAjKFA8aCZpX0ldVW1YSi5GRjBEZ0Mra0hEOEgkb1g/ckosQzhXZWIzOkpNSDdEbmdvPzY5KD4kaVlKXTl0Sikzbys+Yjc1OkBcQnVeclhaJnNDPG51S3VhLyJrUlBiWFkqTDA2MCRZKUU4ZUYqWm5tS2VHYGFDcWA+VyNaYipnJlFhI1VgYyEvSGAlSnNNYF1KaSVYLylRUy4wT2ZRMDZXakFPUjlEZFFfT1tfVk9qY2w7WyFXMzJRJ0xANFlZMUVLbjJXXmNsYVxnW24nIzNZcldoWkFBTXN+PmVuZHN0cmVhbQplbmRvYmoKeHJlZgowIDExCjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDA2MSAwMDAwMCBuIAowMDAwMDAwMTIyIDAwMDAwIG4gCjAwMDAwMDAyMjkgMDAwMDAgbiAKMDAwMDAwMDMzNyAwMDAwMCBuIAowMDAwMDAwNDQ2IDAwMDAwIG4gCjAwMDAwMDA1NTYgMDAwMDAgbiAKMDAwMDAwMDc1MCAwMDAwMCBuIAowMDAwMDAwODE4IDAwMDAwIG4gCjAwMDAwMDExMDcgMDAwMDAgbiAKMDAwMDAwMTE2NiAwMDAwMCBuIAp0cmFpbGVyCjw8Ci9JRCAKWzxlN2M0ZmVjOWIwMGFjN2Q1ZjA1MzFhYTY5MWZhZmQ1Zj48ZTdjNGZlYzliMDBhYzdkNWYwNTMxYWE2OTFmYWZkNWY+XQolIFJlcG9ydExhYiBnZW5lcmF0ZWQgUERGIGRvY3VtZW50IC0tIGRpZ2VzdCAob3BlbnNvdXJjZSkKCi9JbmZvIDggMCBSCi9Sb290IDcgMCBSCi9TaXplIDExCj4+CnN0YXJ0eHJlZgo0NTAzCiUlRU9GCg==
+%PDF-1.4
+%~~~~ ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Times-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Times-Roman /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/BaseFont /Times-Italic /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+6 0 obj
+<<
+/Contents 10 0 R /MediaBox [ 0 0 612 792 ] /Parent 9 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+7 0 obj
+<<
+/PageMode /UseNone /Pages 9 0 R /Type /Catalog
+>>
+endobj
+8 0 obj
+<<
+/Author (Liu Jason Tan) /CreationDate (D:20261108194118-05'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20261108194118-05'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (Liu Jason Tan - Resume) /Trapped /False
+>>
+endobj
+9 0 obj
+<<
+/Count 1 /Kids [ 6 0 R ] /Type /Pages
+>>
+endobj
+10 0 obj
+<<
+/Length 9202
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 56.4 724.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 19 Tf 22 TL 190.9945 0 Td (Liu Jason Tan) Tj T* -190.9945 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.4 711.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F3 9.5 Tf 12.5 TL 83.14575 0 Td (\(347\) 764-5660 | liu.jason.tan@columbia.edu | https://www.linkedin.com/in/liujasontan) Tj T* -83.14575 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.4 699.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F3 9.5 Tf 12.5 TL 158.3858 0 Td (https://github.com/ljtan | https://liujasontan.com) Tj T* -158.3858 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.4 677.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 11 Tf 13 TL (EDUCATION) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.4 674.7 cm
+q
+.7 w
+1 J
+0 0 0 RG
+n 0 0 m 499.2 0 l S
+Q
+Q
+q
+1 0 0 1 50.4 658 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.4 Tm /F2 9.8 Tf 12.2 TL (Columbia University) Tj T* ET
+Q
+Q
+q
+1 0 0 1 403.2 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.4 Tm /F3 9.8 Tf 12.2 TL (New York, NY) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 50.4 644.3 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.4 Tm /F4 9.8 Tf 12.2 TL (Master of Science in Computer Science) Tj T* ET
+Q
+Q
+q
+1 0 0 1 403.2 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.4 Tm /F3 9.8 Tf 12.2 TL (Expected 2030) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 56.4 632.1 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.4 Tm /F3 9.8 Tf 12.2 TL (Track: Vision, Graphics, Interaction, and Robotics) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.4 628.1 cm
+Q
+q
+1 0 0 1 50.4 614.4 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.4 Tm /F2 9.8 Tf 12.2 TL (University of Michigan - Ann Arbor) Tj T* ET
+Q
+Q
+q
+1 0 0 1 403.2 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.4 Tm /F3 9.8 Tf 12.2 TL (Ann Arbor, MI) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 50.4 600.7 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.4 Tm /F4 9.8 Tf 12.2 TL (Master of Applied Data Science, GPA: 4.00 /4.00) Tj T* ET
+Q
+Q
+q
+1 0 0 1 403.2 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.4 Tm /F3 9.8 Tf 12.2 TL (Aug 2022) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 56.4 588.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.4 Tm /F3 9.8 Tf 12.2 TL (Relevant Courses: Data Mining, Supervised Learning, Unsupervised Learning, Cloud Computing) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.4 584.5 cm
+Q
+q
+1 0 0 1 50.4 570.8 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.4 Tm /F2 9.8 Tf 12.2 TL (Stony Brook University) Tj T* ET
+Q
+Q
+q
+1 0 0 1 403.2 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.4 Tm /F3 9.8 Tf 12.2 TL (Stony Brook, NY) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 50.4 557.1 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.4 Tm /F4 9.8 Tf 12.2 TL (Bachelor of Science in Information Systems, GPA: 3.64 /4.00) Tj T* ET
+Q
+Q
+q
+1 0 0 1 403.2 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.4 Tm /F3 9.8 Tf 12.2 TL (May 2020) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 56.4 544.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.4 Tm /F3 9.8 Tf 12.2 TL (Relevant Courses: Object-Oriented Programming, Data Structures, Database Design) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.4 522.9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 11 Tf 13 TL (WORK EXPERIENCE) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.4 520.2 cm
+q
+.7 w
+1 J
+0 0 0 RG
+n 0 0 m 499.2 0 l S
+Q
+Q
+q
+1 0 0 1 50.4 503.5 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.4 Tm /F2 9.8 Tf 12.2 TL (Morgan Stanley) Tj T* ET
+Q
+Q
+q
+1 0 0 1 403.2 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.4 Tm /F3 9.8 Tf 12.2 TL (New York, NY) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 50.4 489.8 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.4 Tm /F4 9.8 Tf 12.2 TL (Associate, Operational Risk Capital Analytics \(Full Time\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 403.2 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.4 Tm /F3 9.8 Tf 12.2 TL (Aug 2022 - Present) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 56.4 465.4 cm
+q
+BT 1 0 0 1 2 14.6 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 11 14.6 Tm /F3 9.8 Tf 12.2 TL .5 0 Td (Reconstructed a critical operational risk capital model from scratch, leveraging Python to replace a legacy implementation) Tj T* -0.5 0 Td (with 10k+ lines of clean, efficient code.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.4 439.5 cm
+q
+BT 1 0 0 1 2 14.6 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 11 14.6 Tm /F3 9.8 Tf 12.2 TL .5 0 Td (Optimized natural language processing and machine learning models to enhance operational risk incident quality assurance,) Tj T* -0.5 0 Td (reducing manual review workload by over 50% and increasing data accuracy for risk event analysis.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.4 413.6 cm
+q
+BT 1 0 0 1 2 14.6 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 11 14.6 Tm /F3 9.8 Tf 12.2 TL .5 0 Td (Served as a subject matter expert in capital reporting by collaborating with global teams to achieve strategic goals and) Tj T* -0.5 0 Td (deliver robust results that exceeded stakeholders' and regulators' expectations.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.4 387.7 cm
+q
+BT 1 0 0 1 2 14.6 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 11 14.6 Tm /F3 9.8 Tf 12.2 TL .5 0 Td (Led and coached 2 team members and 5 consultants by setting clear guidelines, managing timelines, and running daily) Tj T* -0.5 0 Td (standups, enabling the team to deliver mission-critical capital analytics solutions ahead of regulatory deadlines.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.4 382.2 cm
+Q
+q
+1 0 0 1 50.4 368.5 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.4 Tm /F2 9.8 Tf 12.2 TL (Poisera) Tj T* ET
+Q
+Q
+q
+1 0 0 1 403.2 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.4 Tm /F3 9.8 Tf 12.2 TL (Remote) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 50.4 354.8 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.4 Tm /F4 9.8 Tf 12.2 TL (Data Analytics Intern) Tj T* ET
+Q
+Q
+q
+1 0 0 1 403.2 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2.4 Tm /F3 9.8 Tf 12.2 TL (Jun 2021 - Aug 2021) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 56.4 330.4 cm
+q
+BT 1 0 0 1 2 14.6 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 11 14.6 Tm /F3 9.8 Tf 12.2 TL .5 0 Td (Applied web scraping and API integration pipelines to collect and analyze large-scale public datasets, directly informing) Tj T* -0.5 0 Td (product development decisions, leading to significant user interface improvements.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.4 304.5 cm
+q
+BT 1 0 0 1 2 14.6 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+0 0 0 rg
+BT 1 0 0 1 11 14.6 Tm /F3 9.8 Tf 12.2 TL .5 0 Td (Conducted user interviews and qualitative research to identify critical insights, driving key management decisions and) Tj T* -0.5 0 Td (boosting customer satisfaction.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.4 282.5 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 11 Tf 13 TL (ACADEMIC PROJECTS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.4 279.8 cm
+q
+.7 w
+1 J
+0 0 0 RG
+n 0 0 m 499.2 0 l S
+Q
+Q
+q
+1 0 0 1 56.4 240.2 cm
+q
+BT 1 0 0 1 2 26.8 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+BT 1 0 0 1 11 26.8 Tm .5 0 Td 12.2 TL /F2 9.8 Tf 0 0 0 rg (MyVoice Data Challenge \(First Place\)) Tj /F3 9.8 Tf ( - Engineered an NLP pipeline to analyze sentiment in text message surveys) Tj T* -0.5 0 Td (regarding COVID-19. Automated data cleaning, text encoding, and hierarchical clustering employing BERT to improve the) Tj T* (efficiency of research to generate deeper insights.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.4 202.1 cm
+q
+BT 1 0 0 1 2 26.8 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+BT 1 0 0 1 11 26.8 Tm .5 0 Td 12.2 TL /F2 9.8 Tf 0 0 0 rg (S) Tj (&) Tj (P 500 Stock Performance Forecasting) Tj /F3 9.8 Tf ( - Achieved 62% precision with a random forest classifier, a substantial) Tj T* -0.5 0 Td (improvement over the 20% precision of a dummy classifier. Categorized stocks into top, middle, and bottom tiers using key) Tj T* (equity metrics such as price-to-earnings ratio, dividend yield, and volatility.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.4 151.8 cm
+q
+BT 1 0 0 1 2 39 Tm /F1 10 Tf 12 TL 0 0 0 rg (\177) Tj ET
+BT 1 0 0 1 11 39 Tm .5 0 Td 12.2 TL /F2 9.8 Tf 0 0 0 rg (Social Media Monitoring) Tj /F3 9.8 Tf ( - Developed a full-stack application for real-time sentiment and topic monitoring of company) Tj T* -0.5 0 Td (discussions. Utilized supervised and unsupervised learning techniques, including BERT for emotion classification \(e.g.,) Tj T* (surprise, anger, disgust\) and non-negative matrix factorization for topic clustering \(e.g., account issues, ordering issues,) Tj T* (service issues\), to gain actionable insights from social media interactions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.4 129.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 11 Tf 13 TL (SKILLS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.4 127.1 cm
+q
+.7 w
+1 J
+0 0 0 RG
+n 0 0 m 499.2 0 l S
+Q
+Q
+q
+1 0 0 1 56.4 111.9 cm
+q
+BT 1 0 0 1 0 2.4 Tm 12.2 TL /F2 9.8 Tf 0 0 0 rg (Programming languages:) Tj /F3 9.8 Tf ( Python, Java, MATLAB, R, SQL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.4 99.7 cm
+q
+BT 1 0 0 1 0 2.4 Tm 12.2 TL /F2 9.8 Tf 0 0 0 rg (Python Packages:) Tj /F3 9.8 Tf ( NumPy, Pandas, PyTorch, TensorFlow, SciKit Learn, SciPy, Matplotlib, PySpark, OpenCV) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.4 87.5 cm
+q
+BT 1 0 0 1 0 2.4 Tm 12.2 TL /F2 9.8 Tf 0 0 0 rg (Tools:) Tj /F3 9.8 Tf ( Jupyter Notebook, GitHub, Bitbucket, Jira, API, Agile Workflows, Co-Pilot) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.4 75.3 cm
+q
+BT 1 0 0 1 0 2.4 Tm 12.2 TL /F2 9.8 Tf 0 0 0 rg (Machine Learning:) Tj /F3 9.8 Tf ( Regression, deep neural networks, classification, clustering, Large Language Models) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000061 00000 n 
+0000000122 00000 n 
+0000000229 00000 n 
+0000000337 00000 n 
+0000000446 00000 n 
+0000000556 00000 n 
+0000000750 00000 n 
+0000000818 00000 n 
+0000001107 00000 n 
+0000001166 00000 n 
+trailer
+<<
+/ID 
+[<b496c61e4f0b7800024e1997d0b79c1f><b496c61e4f0b7800024e1997d0b79c1f>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 8 0 R
+/Root 7 0 R
+/Size 11
+>>
+startxref
+10420
+%%EOF
