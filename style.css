@@ -16086,3 +16086,6 @@ html:not(.dark) #darkModeToggle:hover { background-color: #0a2e3f; }
 /* Dark mode (Nov 8, 2026): the back-to-top button goes dark slate instead of brand blue; hover takes the deep band blue. */
 html.dark #scrollUp { background-color: #101820; }
 html.dark #scrollUp:hover { background-color: #0a2e3f; }
+
+/* Back-to-top button (Nov 8, 2026): black border in both modes. */
+#scrollUp { border: 2px solid #000; }
