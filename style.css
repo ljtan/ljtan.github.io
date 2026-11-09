@@ -16089,3 +16089,13 @@ html.dark #scrollUp:hover { background-color: #0a2e3f; }
 
 /* Back-to-top button (Nov 8, 2026): black border in both modes. */
 #scrollUp { border: 2px solid #000; }
+
+/* Dark mode (Nov 8, 2026): the back-to-top button's border goes white so the dark button stays outlined on dark backgrounds. */
+html.dark #scrollUp { border-color: #fff; }
+
+/* Light mode (Nov 8, 2026): the back-to-top chevron itself goes black. */
+html:not(.dark) #scrollUp { color: #000; }
+
+/* Dark mode (Nov 8, 2026): the back-to-top button takes the Skills band shade (#0a2e3f), not the Experience shade (#101820); hover swaps to the other shade. */
+html.dark #scrollUp { background-color: #0a2e3f; }
+html.dark #scrollUp:hover { background-color: #101820; }
