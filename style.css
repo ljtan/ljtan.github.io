@@ -16065,3 +16065,7 @@ html.dark .award-slides .center .single-award h5 { color: #eef4f8; }
 html.dark .single-award h5 { color: #c8d6e0; }
 html.dark .contact-area .contact-link, html.dark .contact-link { color: #d7e5ee; }
 html.dark .single-white-area .project-content h4, html.dark .single-white-area .project-content h5 { color: #eef4f8; }
+
+/* Dark mode fix (Nov 8, 2026): project titles are links (.project-link) inside the h5 - the link's own color rule beat the heading override. */
+html.dark .single-white-area .project-content .project-link { color: #eef4f8; }
+html.dark .single-white-area .project-content .project-link:hover { color: #14c4ff; }
