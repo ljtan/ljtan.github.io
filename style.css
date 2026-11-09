@@ -16055,6 +16055,10 @@ html.dark .progress { background-color: #223140; }
 html.dark .header-area .main-menu .classy-navbar .classynav > ul > li > a { color: #d7e5ee; }
 html.dark .header-area .main-menu .classy-navbar .classynav > ul > li.active > a { color: #eef4f8; }
 html.dark .award-slides .center .single-award h5 { color: #eef4f8; }
+
+/* Dark mode (Nov 9, 2026): the Awards carousel prev/next buttons take the Skills-band blue on hover; on press they turn black, matching the light-mode hover color (#252525). */
+html.dark .award-slides .owl-prev:hover, html.dark .award-slides .owl-next:hover { background-color: #0a2e3f; }
+html.dark .award-slides .owl-prev:active, html.dark .award-slides .owl-next:active { background-color: #252525; }
 html.dark .single-award h5 { color: #c8d6e0; }
 html.dark .contact-area .contact-link, html.dark .contact-link { color: #d7e5ee; }
 html.dark .single-white-area .project-content h4, html.dark .single-white-area .project-content h5 { color: #eef4f8; }
