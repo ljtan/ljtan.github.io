@@ -24,7 +24,6 @@ This project is licensed under the MIT License.
 
 Contact
 For any questions or inquiries, you can reach me at:
-* Email: liu.jason.tan1@gmail.com
 * LinkedIn: https://www.linkedin.com/in/liujasontan/
 
 Thank you for visiting my personal webpage repository!
