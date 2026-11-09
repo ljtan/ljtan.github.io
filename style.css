@@ -16069,3 +16069,9 @@ html.dark .single-white-area .project-content h4, html.dark .single-white-area .
 /* Dark mode fix (Nov 8, 2026): project titles are links (.project-link) inside the h5 - the link's own color rule beat the heading override. */
 html.dark .single-white-area .project-content .project-link { color: #eef4f8; }
 html.dark .single-white-area .project-content .project-link:hover { color: #14c4ff; }
+
+/* Dark mode fixes (Nov 8, 2026): hover highlights outranked by the dark base rules, and the footer rendered as a near-black slab. */
+html.dark .header-area .main-menu .classy-navbar .classynav > ul > li > a:hover { color: #14c4ff; }
+html.dark .contact-area .contact-link:hover, html.dark .contact-link:hover { color: #14c4ff; }
+html.dark .footer-area { background-color: #101820; }
+html.dark .footer-area .bot { background-color: #101820; }
