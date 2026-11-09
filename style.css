@@ -16099,3 +16099,12 @@ html:not(.dark) #scrollUp { color: #000; }
 /* Dark mode (Nov 8, 2026): the back-to-top button takes the Skills band shade (#0a2e3f), not the Experience shade (#101820); hover swaps to the other shade. */
 html.dark #scrollUp { background-color: #0a2e3f; }
 html.dark #scrollUp:hover { background-color: #101820; }
+
+/* Toggle colors (Nov 8, 2026): in light mode the toggle circle is the deep Skills blue; in dark mode it is a white circle with a blue icon. */
+html:not(.dark) #darkModeToggle { background-color: #0a2e3f; }
+html:not(.dark) #darkModeToggle:hover { background-color: #101820; }
+html.dark #darkModeToggle { background-color: #ffffff; color: #14c4ff; }
+html.dark #darkModeToggle:hover { background-color: #eef4f8; }
+
+/* Dark mode (Nov 8, 2026): the hero name takes the standard heading color, aligning with the subtitle and every other dark-mode heading (light mode keeps the blue branding). */
+html.dark .About-Me-area .About-Me-content h2 { color: #eef4f8; }
