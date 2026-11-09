@@ -16082,3 +16082,7 @@ html.dark body { background-color: #101820; }
 /* Toggle button in light mode (Nov 8, 2026): dark circle, matching the dark-mode surfaces, instead of the brand-blue used in dark mode. */
 html:not(.dark) #darkModeToggle { background-color: #101820; color: #fff; }
 html:not(.dark) #darkModeToggle:hover { background-color: #0a2e3f; }
+
+/* Dark mode (Nov 8, 2026): the back-to-top button goes dark slate instead of brand blue; hover takes the deep band blue. */
+html.dark #scrollUp { background-color: #101820; }
+html.dark #scrollUp:hover { background-color: #0a2e3f; }
