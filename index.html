@@ -30,7 +30,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
           <script>
     // Dark mode: apply the saved (or system) theme before first paint.
-    (function(){try{var t=localStorage.getItem('ljt-theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.classList.add('dark');}}catch(e){}})();
+    (function(){try{if(window.matchMedia('(prefers-color-scheme: dark)').matches){document.documentElement.classList.add('dark');}}catch(e){}})();
     </script>
       <!--Stylesheet -->
       <link rel="stylesheet" href="style.css">
@@ -455,7 +455,7 @@
     (function(){var b=document.getElementById('darkModeToggle');var i=b.querySelector('i');
     function sync(){var d=document.documentElement.classList.contains('dark');i.className=d?'fa fa-sun-o':'fa fa-moon-o';}
     sync();
-    b.addEventListener('click',function(){var d=document.documentElement.classList.toggle('dark');try{localStorage.setItem('ljt-theme',d?'dark':'light');}catch(e){} sync();});})();
+    b.addEventListener('click',function(){document.documentElement.classList.toggle('dark'); sync();});})();
     </script>
 </body>
 </html>
