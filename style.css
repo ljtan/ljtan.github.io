@@ -16078,3 +16078,7 @@ html.dark .footer-area .bot { background-color: #101820; }
 
 /* Dark mode palette unification (Nov 8, 2026): the page base background was a few points off the section shade (#0d141b vs #101820), which showed as a stray band wherever it peeked through. One base shade everywhere; the blue bands stay as deliberate contrast. */
 html.dark body { background-color: #101820; }
+
+/* Toggle button in light mode (Nov 8, 2026): dark circle, matching the dark-mode surfaces, instead of the brand-blue used in dark mode. */
+html:not(.dark) #darkModeToggle { background-color: #101820; color: #fff; }
+html:not(.dark) #darkModeToggle:hover { background-color: #0a2e3f; }
