@@ -16057,3 +16057,11 @@ html.dark .classy-menu { background-color: #0d141b; }
 html.dark .navbarToggler span { background-color: #d7e5ee; }
 html.dark .footer-area { background-color: #0a0f14; }
 html.dark .progress { background-color: #223140; }
+
+/* ===== Dark mode targeted fixes (Nov 8, 2026) - the template colors these elements with high-specificity rules, so the overrides mirror those selectors. ===== */
+html.dark .header-area .main-menu .classy-navbar .classynav > ul > li > a { color: #d7e5ee; }
+html.dark .header-area .main-menu .classy-navbar .classynav > ul > li.active > a { color: #eef4f8; }
+html.dark .award-slides .center .single-award h5 { color: #eef4f8; }
+html.dark .single-award h5 { color: #c8d6e0; }
+html.dark .contact-area .contact-link, html.dark .contact-link { color: #d7e5ee; }
+html.dark .single-white-area .project-content h4, html.dark .single-white-area .project-content h5 { color: #eef4f8; }
