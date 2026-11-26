@@ -78,16 +78,6 @@
         });
     }
 
-    // :: Tooltip Active Code
-    if ($.fn.tooltip) {
-        $('[data-toggle="tooltip"]').tooltip();
-    }
-
-    // :: 16.0 prevent default a click
-    $('a[href="#"]').on('click', function($) {
-        $.preventDefault();
-    });
-
     // :: Copyright Year
     var newDate = new Date();
     newDate.setDate(newDate.getDate() + 1);
