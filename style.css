@@ -15180,6 +15180,15 @@ h5, h6 {
          display:none !important;
     }
 }
+ .button.resume-button{
+     white-space: nowrap;
+}
+ @media only screen and (max-width: 1000px) {
+     .button.resume-button{
+         padding: 0 15px;
+         margin: 0px 10px 0px 10px;
+    }
+}
  .button.active, .button:hover, .button:focus {
      font-weight: 600;
      color: #ffffff;
